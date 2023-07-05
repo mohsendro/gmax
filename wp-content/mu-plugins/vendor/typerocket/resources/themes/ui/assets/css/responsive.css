@@ -1,0 +1,242 @@
+@media (max-width: 1399.98px) {}
+
+@media (max-width: 1199.98px) {
+
+    /************* Inedx *************/
+    .service {
+        margin-top: 70px;
+    }
+
+    .service .head .title {
+        font-size: 35px;
+    }
+
+    .service .head .subtitle {
+        font-size: 35px;
+    }
+
+    .cta {
+        margin-top: 70px;
+    }
+
+    .timeline {
+        margin-top: 70px;
+    }
+
+    .timeline__event {
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .timeline__event__content {
+        width: 100%;
+    }
+
+    .timeline__event__title {
+        text-align: center;
+    }
+
+    .timeline__event__description {
+        text-align: center;
+    }
+
+    .timeline__event__icon {
+        border-radius: 6px 6px 0 0;
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+    }
+
+    .timeline__event__icon:before, .timeline__event__icon:after {
+        display: none;
+    }
+
+    .timeline__event__date {
+        border-radius: 0;
+        padding: 20px;
+    }
+
+    .timeline__event:nth-child(2n+1) {
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .timeline__event:nth-child(2n+1) .timeline__event__date {
+        border-radius: 0;
+        padding: 20px;
+    }
+
+    .timeline__event:nth-child(2n+1) .timeline__event__icon {
+        border-radius: 6px 6px 0 0;
+        margin: 0;
+    }
+
+    .banner {
+        background-size: cover, cover;
+        padding: 30px;
+        margin-top: 70px;
+    }
+
+    .banner img {
+        width: auto;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .banner .title {
+        text-align: center;
+    }
+
+    .banner .desc {
+        text-align: center;
+    }
+
+    .faqs {
+        margin-top: 70px;
+    }
+
+    .blog {
+        margin-top: 70px;
+    }
+
+    /************* Google Ads Page *************/
+    .hero .desc {
+        font-size: 17px;
+    }
+
+    .introducing {
+        margin-top: 70px;
+    }
+
+    .introducing .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: scroll;
+    }
+
+    .introducing .column {
+        width: auto;
+        max-width: 400px;
+    }
+
+    .budget {
+        margin-top: 70px;
+    }
+
+    .budget .title {
+        width: 100%;
+    }
+
+    .budget .desc {
+        width: 100%;
+    }
+
+    .pricing {
+        margin-top: 70px;
+    }
+
+    .pricing .plan {
+        width: 100%;
+    }
+
+    .pricing-content {
+        flex-wrap: wrap;
+    }
+
+    .find {
+        margin-top: 70px;
+    }
+    
+    .feachers {
+        margin-top: 70px;
+    }
+
+    .feachers .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: scroll;
+    }
+
+    .feachers .column {
+        width: auto;
+        max-width: 400px;
+    }
+
+    /************* Google Ads Page *************/
+    .advertising {
+        margin-top: 70px;
+    }
+
+    .advertising .tabs {
+        flex-direction: column;
+    }
+
+    .advertising .nav {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    /************* Seo Page *************/
+    .seoservice {
+        margin-top: 70px;
+    }
+
+    .seoservice .title {
+        width: 100%;
+    }
+    
+    .seoservice .desc {
+        width: 100%;
+    }
+
+    /************* About Page *************/
+    .about-box {
+        margin-top: 70px;
+    }
+
+    .about-box .row:not(.heading-row) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: scroll;
+    }
+
+    .about-box .column:not(.heading-row .column) {
+        width: auto;
+        max-width: 400px;
+    }
+
+    /************* Services Page *************/
+    .main.services {
+        margin-top: 70px;
+    }
+
+    /************* Monetization Page *************/
+    .monetization-info {
+        margin-top: 70px;
+    }
+
+    /************* Studio Page *************/
+    .studio-info {
+        margin-top: 70px;
+    }
+
+    /************* Fraudclicks Page *************/
+    .fraudclicks-info {
+        margin-top: 70px;
+    }
+
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {}

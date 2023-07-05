@@ -1,0 +1,964 @@
+/************* Component Notification *************/
+.notification {}
+
+.notification .row {}
+
+.notification .column {}
+
+.notification .alert {
+    position: relative;
+    font-family: var(--second-font);
+    text-align: center;
+    background-color: var(--main-color-second);
+    border-radius: 0;
+    padding: 20px;
+    margin: 0;
+}
+
+.notification .alert .btn-close {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -25px);
+}
+
+.notification .alert .btn-login {
+    display: inline-flex;
+    color: var(--title-color);
+    background: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.notification .alert .btn-login:hover {
+    background-color: var(--hover-color-default);
+}
+
+
+/************* Component Breadcrumbs *************/
+.breadcrumbs {}
+
+.breadcrumbs .row {}
+
+.breadcrumbs .column {}
+
+.breadcrumbs .rank-math-breadcrumb {}
+
+.breadcrumbs .rank-math-breadcrumb p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--description-color);
+    padding: 10px 0;
+    margin: 0;
+}
+
+.breadcrumbs .rank-math-breadcrumb a {
+    color: var(--description-color);
+}
+
+.breadcrumbs .rank-math-breadcrumb a:hover {
+    color: var(--hover-color-default);
+}
+
+
+/************* Component Heading *************/
+.heading {
+    width: 100%;
+    min-height: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--default-font);
+    text-align: right;
+    color: var(--title-color);
+    margin-bottom: 30px;
+}
+
+.heading .title {
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--main-color);
+    text-align: right;
+    padding-right: 30px;
+}
+
+.heading .title::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0px, -5px);
+    background-color: var(--main-color-default);
+    border-radius: 50%;
+}
+
+.heading .link {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading .link .more {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.heading .link .more button {
+    width: auto;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    color: var(--title-color);
+    background-color: var(--main-color-default);
+    border-radius: 4px;
+    padding: 10px; 
+}
+
+.heading .link .more button:hover {
+    color: var(--title-color);
+    background-color: var(--hover-color-default);
+}
+
+.heading .link .more span {}
+
+.heading .link .more i {
+    font-size: 20px;
+}
+
+.heading .navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.heading .navigation .nav {
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--title-color);
+    background-color: #cccccc50;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.heading .navigation .nav:hover {
+    background-color: var(--hover-color-default);
+}
+
+
+/************* Component Button *************/
+.btn-default {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.btn-default button {
+    width: auto;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    color: var(--title-color);
+    background-color: var(--main-color-default);
+    border-radius: 4px;
+    padding: 10px; 
+}
+
+.btn-default button:hover {
+    color: var(--title-color);
+    background-color: var(--hover-color-default);
+}
+
+.btn-default span {}
+
+.btn-default i {
+    font-size: 20px;
+}
+
+
+/************* Component CTA *************/
+.content-cta {
+    min-height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border: 1px solid rgba(196,196,196,.2);
+    border-radius: 7px;
+    background-image: url("../img/banner.jpg"), linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    -webkit-box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.2);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.content-cta::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,0.1);
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s;
+    -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-300%,0);
+    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-300%,0);
+}
+
+.content-cta:hover::before {
+    -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,300%,0);
+    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,300%,0);
+}
+
+.content-cta .title {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.content-cta strong {
+    width: 100%;
+    display: block;
+    font-family: var(--second-font);
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.content-cta p {
+    width: 100%;
+    display: block;
+    font-family: var(--default-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: right;
+    margin: 0;
+}
+
+.btn-cta {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.btn-cta button {
+    width: auto;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    color: var(--title-color);
+    background-color: var(--main-color-default);
+    border-radius: 4px;
+    padding: 10px; 
+}
+
+.btn-cta button:hover {
+    color: var(--title-color);
+    background-color: var(--hover-color-default);
+}
+
+.btn-cta span {}
+
+.btn-cta i {
+    font-size: 20px;
+}
+
+
+/************* Component FAQ *************/
+.faq {}
+
+.faq .accordion-item {
+    border: 1px solid rgba(0,0,0,.2)!important;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.faq .accordion-header {}
+
+.faq .accordion-button {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    color: var(--main-color);
+    text-align: right;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="26" height="61" viewBox="0 0 26 61" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M26 0.997681L18.3891 0.99768C16.3381 0.997676 14.3903 1.89718 13.0603 3.45851L1.83529 16.6361C0.756535 17.9025 0.164064 19.5117 0.164064 21.1753L0.16406 40.8214C0.16406 42.485 0.756532 44.0942 1.83528 45.3606L13.0603 58.5382C14.3903 60.0995 16.3381 60.999 18.3891 60.999L26 60.999L26 0.997681Z" fill="%23FED813"></path><path d="M6.3886 30.2914C5.99807 30.682 5.99807 31.3151 6.3886 31.7056L12.7526 38.0696C13.1431 38.4601 13.7762 38.4601 14.1668 38.0696C14.5573 37.6791 14.5573 37.0459 14.1668 36.6554L8.50992 30.9985L14.1668 25.3417C14.5573 24.9512 14.5573 24.318 14.1668 23.9275C13.7762 23.5369 13.1431 23.5369 12.7526 23.9275L6.3886 30.2914ZM7.0957 31.9985L22.8491 31.9985L22.8491 29.9985L7.0957 29.9985L7.0957 31.9985Z" fill="black"></path></svg>');
+    background-position: right center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 15px 35px;
+}
+
+.faq .accordion-button:focus,
+.accordion-button:not(.collapsed) {
+    background-color: var(--main-color-default);
+}
+
+.faq .accordion-body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--description-color);
+    text-align: justify;
+}
+
+
+/************* Component Swiper *************/
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper {}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/************* Component Slider Card *************/
+.slider-card {
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    position: relative;
+}
+
+.slider-card::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #05050550;
+    z-index: 1;
+}
+
+.slider-card img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.slider-card .content-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.slider-card .content {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+    z-index: 5;
+}
+
+.slider-card .title {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.slider-card .desc {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+
+/************* Component Info Box Card *************/
+.info-box {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(196,196,196,.2);
+    border-radius: 7px;
+    padding: 35px 20px;
+}
+
+.info-box .info-img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box .info-img::after {
+    content: "";
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--main-color-second);
+    opacity: 0.5;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.info-box .info-img i {
+    font-size: 50px;
+    z-index: 2;
+}
+
+.info-box .info-title {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.info-box .info-desc {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--description-color);
+    text-align: center;
+}
+
+.info-box .info-more  {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.info-box .info-more  button {
+    width: auto;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    color: var(--title-color);
+    background-color: var(--main-color-default);
+    border-radius: 4px;
+    padding: 10px; 
+}
+
+.info-box .info-more  button:hover {
+    color: var(--title-color);
+    background-color: var(--hover-color-default);
+}
+
+.info-box .info-more  span {}
+
+.info-box .info-more  i {
+    font-size: 20px;
+}
+
+
+/************* Component Box Card *************/
+.box {
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(196,196,196,.2);
+    border: 1px solid rgba(196,196,196,.2);
+    border-radius: 7px;
+    padding: 35px 20px;
+}
+
+.box .img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.box .img img {
+    width: auto;
+    max-width: 200px;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
+.box .title {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.box .head {
+    width: 100%;
+    display: block;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.box .desc {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--description-color);
+    text-align: center;
+}
+
+
+/************* Component Boxing Card *************/
+.boxing {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(196,196,196,.2);
+    border: 1px solid rgba(196,196,196,.2);
+    border-radius: 7px;
+    padding: 35px 20px;
+}
+
+.boxing .img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.boxing .img img {
+    width: auto;
+    max-width: 200px;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
+.boxing .title {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.boxing .head {
+    width: 100%;
+    display: block;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.boxing .desc {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--description-color);
+    text-align: center;
+}
+
+
+/************* Component Feacher Card *************/
+.feacher {
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(255 255 255 / 20%);
+    border: 1px solid rgba(196,196,196,.2);
+    border-radius: 7px;
+    -webkit-box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.2);
+    padding: 35px 20px;
+}
+
+.feacher .icon {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.feacher .icon::before {
+    content: "";
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-75%, -10%);
+    background-color: var(--main-color-second);
+    opacity: 0.5;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.feacher .title {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.feacher .desc {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--description-color);
+    text-align: center;
+}
+
+
+/************* Component Blog Card *************/
+.blog-card {
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(196,196,196,.2);
+    border-radius: 7px;
+    padding: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+    -webkit-box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.2);
+}
+
+.blog-card .info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.blog-card .thumbnail {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.blog-card .thumbnail img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.blog-card .detial {
+    width: 100%;
+    height: auto;
+    max-height: 50px;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #00000050;
+    opacity: 0;
+    padding: 10px;
+    margin: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-card:hover .detial {
+    opacity: 1;
+}
+
+.blog-card .detial li {
+    width: auto;
+    display: inline-block;
+}
+
+.blog-card .detial li span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.blog-card .detial li span:hover {
+    color: var(--main-color-default);
+}
+
+.blog-card .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.blog-card .content .title {
+    width: 100%;
+    min-height: 25px;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    color: var(--main-color);
+    text-align: right;
+}
+
+.blog-card .content .desc {
+    width: 100%;
+    min-height: 75px;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--description-color);
+    text-align: justify;
+    margin: 0;
+}
+
+
+/************* Component Pagination *************/
+.navigations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.navigations .pagination {
+    padding: 0;
+    margin: 0;
+}
+
+.navigations .page-item {}
+
+.navigations .page-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--description-color);
+}
+
+.navigations .page-item.active {}
+
+.navigations .page-item.active .page-link {
+    color: var(--main-color);
+    background-color: var(--main-color-default);
+    border-color: var(--main-color-default);
+}
+
+/************* Component Not Result *************/
+.not-result {
+    /* margin-top: 25px; */
+}
+
+.not-result .row {}
+
+.not-result .column {}
+
+.not-result .text {
+    width: 100%;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0;
+}
+
+
+/************* Component Responsive *************/
+@media (max-width: 1399.98px) {}
+
+@media (max-width: 1199.98px) {
+
+    /************* Component Slider Card *************/
+    .slider-card {
+        min-height: 400px;
+    }
+
+    /************* Component Info Box Card *************/
+    .info-box {
+        min-height: 400px;
+    }
+
+    /************* Component CTA *************/
+    .content-cta {
+        flex-direction: column;
+        gap: 20px
+    }
+
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+
+    /************* Component Notification *************/
+    .notification .alert .btn-login {
+        display: block;
+        margin: 20px auto 0;
+    }
+
+}
+
+@media (max-width: 575.98px) {}
