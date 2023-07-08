@@ -50,4 +50,4 @@ require_once plugin_dir_path(__FILE__) . 'functions/taxonomy/tag.php';
 // require_once plugin_dir_path(__FILE__) . 'functions/role/rolesample.php';
 
 // Ajax Handlers
-// require_once plugin_dir_path(__FILE__) . 'functions/ajax/handlesample.php';
+require_once plugin_dir_path(__FILE__) . 'functions/ajax/handle-newsletter.php';

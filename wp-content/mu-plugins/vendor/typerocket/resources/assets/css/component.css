@@ -927,6 +927,29 @@
 }
 
 
+/************* Component Toast *************/
+.toast-bottom-center {}
+
+.toast {
+    opacity: 1 !important;
+    padding: 15px !important;
+}
+
+.toast-progress {}
+
+.toast-close-button {
+    right: -0.3em !important;
+    float: right !important;
+    left: 0.3em !important;
+}
+
+.toast-title {
+    margin-bottom: 10px;
+}
+
+.toast-message {}
+
+
 /************* Component Responsive *************/
 @media (max-width: 1399.98px) {}
 

@@ -28,6 +28,7 @@ jQuery(document).ready(function($) {
     });
 });
 
+
 // swipers script
 var swiper = new Swiper(".sliderSwiper", {
     slidesPerView: 1,

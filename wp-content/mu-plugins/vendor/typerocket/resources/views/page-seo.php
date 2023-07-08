@@ -2,20 +2,21 @@
 
 <?php get_header(); ?>
 
-<main id="main" class="main webdesign">
+<main id="main" class="main seo">
     <section id="hero" class="container-fluid hero">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-6 content-column column">
-                    <h1 class="title">طراحی وب سایت</h1>
+                    <h1 class="title">خدمات سئو (SEO)</h1>
                     <p class="desc">
-                        طراحی وب سایت توسط تیم حرفه ای جیمکس و با طراحی مورد نظر شما انجام خواهد شد. شما می توانید با خیالی آسوده، پروژه های طراحی وب سایت شخصی، شرکتی و فروشگاهی خود را به ما بسپارید.
+                        ما می دانیم که تبلیغات آنلاین یک جنبه حیاتی از موفقیت هر کسب و کاری است. با این حال، تبلیغات به تنهایی ممکن است برای جذب ترافیک به وب سایت و افزایش درآمد شما کافی نباشد. به همین دلیل ما خدمات جامع سئو را نیز برای کمک به شما در دستیابی به اهداف کسب و کارتان ارائه می دهیم.
                     </p>
                     <ul class="details">
-                        <li>جلسات هفتگی با تیم دولوپر برای بررسی پیشرفت پروژه</li>
-                        <li>پلن های قیمتی متنوع و قابل انعطاف</li>
-                        <li>امکان دریافت پشتیبانی سالانه برای بروزرسانی و اضافه کردن قابلیت</li>
-                        <li>کمک به موفق شدن وب سایت شما به وسیله ی تیم مارکتینگ مجموعه</li>
+                        <li>افزایش قدرت برند</li>
+                        <li>افزایش چشمگیر بازدید وب سایت</li>
+                        <li>بهبود رتبه در موتورهای جستجو</li>
+                        <li>بررسی تجربه کاربر در وب سایت</li>
+                        <li>فروش بیشتر محصولات و خدمات</li>
                     </ul>
                     <!-- Component Button Start -->
                     <a href="https://gmaxads.com/contact-us/" class="btn-default" target="_blank">
@@ -28,52 +29,8 @@
                 </div>
 
                 <div class="col-12 col-xl-6 img-column column">
-                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/web-design.png" alt="web-design">
+                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/seo.png" alt="seo">
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="introducing" class="container introducing">
-        <div class="row">
-            <div class="col-12 col-xl-3 column">
-                <!-- Component Box Card Start -->
-                <div class="box" data-aos="fade-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
-                    <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box1.jpg" alt="">
-                    </div>
-                    <div class="title">طراحی اختصاصی وب سایت</div>
-                    <div class="desc">
-                        طراحی اختصاصی وب سایت شما از صفر و با هماهنگی شما انجام خواهد شد
-                    </div>
-                </div>
-                <!-- Component Box Card End -->
-            </div>
-            <div class="col-12 col-xl-3 column">
-                <!-- Component Box Card Start -->
-                <div class="box" data-aos="fade-in" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
-                    <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box2.jpg" alt="">
-                    </div>
-                    <div class="title">طراحی رسپانسیو وب سایت</div>
-                    <div class="desc">
-                        وب سایت شما با دید Mobile-First طراحی خواهد شد
-                    </div>
-                </div>
-                <!-- Component Box Card End -->
-            </div>
-            <div class="col-12 col-xl-3 column">
-                <!-- Component Box Card Start -->
-                <div class="box" data-aos="fade-in" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
-                    <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box3.jpg" alt="">
-                    </div>
-                    <div class="title">طراحی وب سایت چند زبانه</div>
-                    <div class="desc">
-                        امکان طراحی وب سایت چند زبانه برای افزایش وسعت مخاطبین و مشتریان وب سایت شما
-                    </div>
-                </div>
-                <!-- Component Box Card End -->
             </div>
         </div>
     </section>
@@ -99,141 +56,27 @@
         </div>
     </section>
 
-    <section id="budget" class="container-fluid budget">
+    <section id="seoservice" class="container-fluid seoservice">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-7 order-1 order-xl-1 content-column column">
-                    <h2 class="title">بودجه ای متناسب با وب سایت دلخواه خود تعیین کنید</h2>
+                    <h2 class="title">چرا از خدمات سئو جیمکس استفاده کنیم؟</h2>
                     <p class="desc">
-                        شما می توانید با انتخاب طرح های مختلف جیمکس، با هر بودجه ای وب سایت خود را طراحی نمایید.
+                        خدمات سئو جیمکس به مشتریان کمک می کند تا دید آنلاین خود را افزایش داده و به شکل موثرتری به مخاطبان هدف خود دسترسی پیدا کنند. با بهینه سازی محتوا و ساختار وب سایت، و ایجاد بک لینک های با کیفیت، می توانیم رتبه وب سایت شما را در موتورهای جستجو بهبود ببخشیم. راه حل های اختصاصی ما که متناسب با نیازهای خاص مشتریان طراحی شده است، تضمین می کند که بهترین نتایج ممکن را دریافت می کنید.
                     </p>
+                    <ul class="details">
+                        <li>مشاوره رایگان سئو</li>
+                        <li>پشتیبانی 24 ساعته حتی در روزهای تعطیل</li>
+                        <li>اعتماد بزرگترین برندهای کشور</li>
+                        <li>جلسات ماهیانه با کارفرما برای بررسی پیشرفت</li>
+                        <li>ارائه گزارش های دقیق از میزان پیشرفت پروژه</li>
+                    </ul>
                 </div>
 
                 <div class="col-12 col-xl-5 order-2 order-xl-2 img-column column">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/content1.png" alt="budget">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/seo-services.png" alt="budget">
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="pricing" class="container pricing">
-        <div class="row">
-            <div class="col-12 column">
-                <div class="head dolar-head">تعرفه طراحی وب سایت</div>
-            </div>
-
-            <div class="col-12 col-xl-10 mx-auto column">
-                <div class="pricing-content dolar-table">
-                    <div class="plan" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
-                        <div class="title">لندینگ تک صفحه</div>
-                        <p class="offer">برای وب سایت هایی که بر روی دامنه IR هستند و برای تبلیغ در گوگل نیاز به لندینگ پیج دارند</p>
-                        <div class="price">4,500,000<span class="format">تومان</span></div>
-                        <ul class="features">
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check"> طراحی اختصاصی</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">متناسب برای تبلیغ در گوگل</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">امکان اضافه کردن فیچر</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check"> تحویل در 7 روز کاری</span>
-                            </li>
-                        </ul>
-                        <a href="https://panel.gmaxads.com/" target="_blank" class="link">سفارش</a>
-                    </div>
-                    <div class="plan popular" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
-                        <span class="comment">پیشنهاد ما</span>
-                        <div class="title">طراحی وب سایت شخصی سازی شده</div>
-                        <p class="offer">طراحی وب سایت از صفر و به سلیقه ی شما. تمامی فیچرهای مورد نیاز شما توسط تیم ما پیاده سازی خواهد شد</p>
-                        <div class="price">25 تا 30 میلیون <span class="format">تومان</span></div>
-                        <ul class="features">
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">طراحی اختصاصی</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">جلسات هفتگی برای بررسی پیشرفت</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">اعمال نظر مستقیم کارفرما</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">کدنویسی اختصاصی پلاگین</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">بهینه سازی تضمینی</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">تحویل در 35 روز کاری</span>
-                            </li>
-                        </ul>
-                        <a href="https://panel.gmaxads.com/" target="_blank" class="link">سفارش</a>
-                    </div>
-                    <div class="plan" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
-                        <div class="title">طراحی وب سایت معمولی</div>
-                        <p class="offer">شخصی سازی قالب های آماده با نظر مشتری و اضافه کردن قابلیت های مورد نیاز شما</p>
-                        <div class="price">15 تا 20 میلیون <span class="format">تومان</span></div>
-                        <ul class="features">
-                            <li>
-                                <i class="las la-times"></i>
-                                <span class="uncheck">طراحی اختصاصی</span>
-                            </li>
-                            <li>
-                                <i class="las la-times"></i>
-                                <span class="uncheck">کدنویسی اختصاصی پلاگین</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">شخصی سازی ظاهر قالب</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">بهینه سازی قالب</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">جلسه ی هماهنگی با کارفرما برای شروع و پایان پروژه</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">تحویل در 20 روز کاری</span>
-                            </li>
-                        </ul>
-                        <a href="https://panel.gmaxads.com/" target="_blank" class="link">سفارش</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="find" class="container-fluid find">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-xl-5 order-2 order-xl-1 img-column column">
-                    <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/content1.png" alt="budget">
-                    </div>
-                </div>
-
-                <div class="col-12 col-xl-7 order-1 order-xl-2 content-column column">
-                    <h2 class="title">جیمکس، تا موفقیت وب سایت شما همراه شماست</h2>
-                    <p class="desc">
-                        ما تا انتهای مسیر موفقیت در کنار شما خواهیم بود. پس از ساخته شدن وب سایت، به وسیله ی تبلیغ در گوگل و یوتیوب می توانید با بودجه ای مناسب، مشتریان اصلی و مرتبط خود را پیدا کنید. به وسیله ی ابزارهای هوشمند گوگل، این تبلیغات به مرور زمان بهتر شده و نتایجی بهتر برای کسب و کار شما به ارمغان می آورند
-                    </p>
                 </div>
             </div>
         </div>
@@ -335,48 +178,48 @@
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                طراحی وب سایت چیست؟
+                                سئو چیست؟
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                طراحی وب سایت فرآیند ایجاد و ساختن یک وب سایت است. این حرفه شامل ترکیبی از مهارت ها و رشته های مختلف مانند طراحی گرافیکی، طراحی رابط کاربری و کدنویسی است.
+                                سئو مخفف عبارت Search Engine Optimization است که بهینه سازی وب سایت برای بهبود دید و رتبه آن در موتورهای جستجو مانند گوگل و بینگ انجام می شود.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                چرا به یک وب سایت نیاز دارم؟
+                                چرا به سئو نیاز دارم؟
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                یک وب سایت می تواند به ایجاد حضور آنلاین کسب و کار شما کمک کند و بستری برای فروش یا شناخته شدن برند شما باشد. همچنین می تواند به شما کمک کند تا به مخاطبان بیشتری دست پیدا کنید و محصولات یا خدمات خود را تبلیغ کنید.
+                                سئو برای کسب و کارهایی ضروری است که می خواهند مشتریان بیشتری جذب کنند و دیده شدن آنلاین خود را افزایش دهند. با بهینه سازی وب سایت خود برای موتورهای جستجو، می توانید ترافیک بیشتری را به سایت خود هدایت کنید و رتبه خود را بهبود ببخشید و در نتیجه سرنخ ها و فروش بیشتری داشته باشید.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                طراحی وب سایت چقدر طول می کشد؟
+                                چه خدمات سئو ارائه می دهید؟
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                زمان لازم برای ایجاد یک وب سایت بسته به پیچیدگی طراحی، تعداد صفحات و قابلیت های مورد نیاز شما متفاوت است. طراحی یک وب سایت ساده ممکن است چند روز طول بکشد، در حالی که یک وب سایت پیچیده تر ممکن است چندین هفته یا حتی ماه ها طول بکشد. پس از مشخص شدن نیاز های شما، تیم جیمکس برآورد کاملی از زمان تحویل پروژه به شما خواهند داد.
+                                ما طیف وسیعی از خدمات سئو ، از جمله تحقیق کلمات کلیدی، بهینه سازی درون صفحه، بهینه سازی خارج از صفحه، ساخت لینک، ممیزی SEO و خدمات مشاوره را ارائه می دهیم.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="900" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                طراحی ریسپانسیو چیست؟
+                                چه مدت طول می کشد تا نتایج حاصل از سئو را مشاهده کنیم؟
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                طراحی واکنش گرا یا ریسپانسیو یک رویکرد طراحی وب است که تضمین می کند یک وب سایت در همه دستگاه ها از جمله دسکتاپ، لپ تاپ، تبلت و گوشی های هوشمند به خوبی کار می کند. با توجه به استفاده روز افزون از گوشی های همراه و تبلت ها، رسپانسیو بودن وب سایت اهمیت بسیاری دارد.
+                                سئو یک استراتژی بلند مدت است و ممکن است چندین ماه طول بکشد تا نتایج قابل توجهی مشاهده شود. با این حال، ما با استفاده از استراتژی های ثابت شده، بهترین نتیجه ی ممکن را بگیریم. شما در این مسیر در روند پیشرفت ماهیانه پروژه قرار خواهید گرفت و اطلاعات کاملی از آن خواهید داشت.
                             </div>
                         </div>
                     </div>

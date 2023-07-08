@@ -2,25 +2,25 @@
 
 <?php get_header(); ?>
 
-<main id="main" class="main webdesign">
+<main id="main" class="main googleads">
     <section id="hero" class="container-fluid hero">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-6 content-column column">
-                    <h1 class="title">طراحی وب سایت</h1>
+                    <h1 class="title">تبلیغ در گوگل</h1>
                     <p class="desc">
-                        طراحی وب سایت توسط تیم حرفه ای جیمکس و با طراحی مورد نظر شما انجام خواهد شد. شما می توانید با خیالی آسوده، پروژه های طراحی وب سایت شخصی، شرکتی و فروشگاهی خود را به ما بسپارید.
+                        تبلیغ در گوگل بهترین راه حل برای شناساندن محصول و خدمات شما به مشتریان صد در صدی است. شما با این نوع از تبلیغات، محصول خود را در بالاترین رتبه های گوگل، به کسانی که برای آن جستجو می کنند نشان خواهید داد
                     </p>
                     <ul class="details">
-                        <li>جلسات هفتگی با تیم دولوپر برای بررسی پیشرفت پروژه</li>
-                        <li>پلن های قیمتی متنوع و قابل انعطاف</li>
-                        <li>امکان دریافت پشتیبانی سالانه برای بروزرسانی و اضافه کردن قابلیت</li>
-                        <li>کمک به موفق شدن وب سایت شما به وسیله ی تیم مارکتینگ مجموعه</li>
+                        <li>بدون سئو رتبه های بالای گوگل را برای خود کنید</li>
+                        <li>هزینه ی مقرون به صرفه به ازای هر کلیک</li>
+                        <li>دریافت گزارش لحظه ای و دقیق</li>
+                        <li>امکان رصد کردن رفتار دقیق کاربران</li>
                     </ul>
                     <!-- Component Button Start -->
-                    <a href="https://gmaxads.com/contact-us/" class="btn-default" target="_blank">
+                    <a href="https://panel.gmaxads.com/" class="btn-default" target="_blank">
                         <button type="button" class="btn">
-                            <span>تماس با ما</span>
+                            <span>سفارش / ثبت نام</span>
                             <i class="las la-angle-left"></i>
                         </button>
                     </a>
@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="col-12 col-xl-6 img-column column">
-                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/web-design.png" alt="web-design">
+                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads.png" alt="google-ads">
                 </div>
             </div>
         </div>
@@ -42,9 +42,9 @@
                     <div class="img">
                         <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box1.jpg" alt="">
                     </div>
-                    <div class="title">طراحی اختصاصی وب سایت</div>
+                    <div class="title">افزایش بازدید مشتری از فروشگاه</div>
                     <div class="desc">
-                        طراحی اختصاصی وب سایت شما از صفر و با هماهنگی شما انجام خواهد شد
+                        با استفاده از تبلیغات در گوگل، می توانید مشتریان را با فروشگاه خود آشنا کنید
                     </div>
                 </div>
                 <!-- Component Box Card End -->
@@ -55,9 +55,9 @@
                     <div class="img">
                         <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box2.jpg" alt="">
                     </div>
-                    <div class="title">طراحی رسپانسیو وب سایت</div>
+                    <div class="title">افزایش تماس به شرکت</div>
                     <div class="desc">
-                        وب سایت شما با دید Mobile-First طراحی خواهد شد
+                        افزایش تماس به وسیله تبلیغات در گوگل و اضافه کردن شماره تلفن به آن
                     </div>
                 </div>
                 <!-- Component Box Card End -->
@@ -68,9 +68,9 @@
                     <div class="img">
                         <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box3.jpg" alt="">
                     </div>
-                    <div class="title">طراحی وب سایت چند زبانه</div>
+                    <div class="title">افزایش ترافیک وب سایت</div>
                     <div class="desc">
-                        امکان طراحی وب سایت چند زبانه برای افزایش وسعت مخاطبین و مشتریان وب سایت شما
+                        افزایش فروش و سفارش خدمات، و یا حتی افزایش ثبت نام در خبرنامه به وسیله ترافیک اضافه شده از طریق گوگل ادز
                     </div>
                 </div>
                 <!-- Component Box Card End -->
@@ -103,9 +103,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-7 order-1 order-xl-1 content-column column">
-                    <h2 class="title">بودجه ای متناسب با وب سایت دلخواه خود تعیین کنید</h2>
+                    <h2 class="title">مشاوره رایگان تبلیغ در گوگل</h2>
                     <p class="desc">
-                        شما می توانید با انتخاب طرح های مختلف جیمکس، با هر بودجه ای وب سایت خود را طراحی نمایید.
+                        متخصصین جیمکس در اسرع وقت با شما تماس خواهند گرفت
                     </p>
                 </div>
 
@@ -121,96 +121,162 @@
     <section id="pricing" class="container pricing">
         <div class="row">
             <div class="col-12 column">
-                <div class="head dolar-head">تعرفه طراحی وب سایت</div>
+                <div class="head dolar-head">قیمت به دلار</div>
             </div>
 
             <div class="col-12 col-xl-10 mx-auto column">
                 <div class="pricing-content dolar-table">
                     <div class="plan" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
-                        <div class="title">لندینگ تک صفحه</div>
-                        <p class="offer">برای وب سایت هایی که بر روی دامنه IR هستند و برای تبلیغ در گوگل نیاز به لندینگ پیج دارند</p>
-                        <div class="price">4,500,000<span class="format">تومان</span></div>
+                        <div class="title">350 دلار</div>
+                        <p class="offer">3 درصد تخفیف</p>
+                        <div class="price">20,041,000<span class="format">تومان</span></div>
                         <ul class="features">
                             <li>
                                 <i class="las la-check"></i>
-                                <span class="check"> طراحی اختصاصی</span>
+                                <span class="check">دسترسی مستقیم به اکانت</span>
                             </li>
                             <li>
                                 <i class="las la-check"></i>
-                                <span class="check">متناسب برای تبلیغ در گوگل</span>
+                                <span class="check">مشاوره رایگان</span>
                             </li>
                             <li>
-                                <i class="las la-check"></i>
-                                <span class="check">امکان اضافه کردن فیچر</span>
+                                <i class="las la-times"></i>
+                                <span class="uncheck">مشاوره سئو رایگان (2 ساعت)</span>
                             </li>
                             <li>
-                                <i class="las la-check"></i>
-                                <span class="check"> تحویل در 7 روز کاری</span>
+                                <i class="las la-times"></i>
+                                <span class="uncheck">آنالیز رایگان وب سایت (یکبار)</span>
                             </li>
                         </ul>
                         <a href="https://panel.gmaxads.com/" target="_blank" class="link">سفارش</a>
                     </div>
                     <div class="plan popular" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
                         <span class="comment">پیشنهاد ما</span>
-                        <div class="title">طراحی وب سایت شخصی سازی شده</div>
-                        <p class="offer">طراحی وب سایت از صفر و به سلیقه ی شما. تمامی فیچرهای مورد نیاز شما توسط تیم ما پیاده سازی خواهد شد</p>
-                        <div class="price">25 تا 30 میلیون <span class="format">تومان</span></div>
+                        <div class="title">۱۰۰۰ دلار</div>
+                        <p class="offer">5 درصد تخفیف</p>
+                        <div class="price">56,210,000<span class="format">تومان</span></div>
                         <ul class="features">
                             <li>
                                 <i class="las la-check"></i>
-                                <span class="check">طراحی اختصاصی</span>
+                                <span class="check">دسترسی مستقیم به اکانت</span>
                             </li>
                             <li>
                                 <i class="las la-check"></i>
-                                <span class="check">جلسات هفتگی برای بررسی پیشرفت</span>
+                                <span class="check">مشاوره رایگان</span>
                             </li>
                             <li>
                                 <i class="las la-check"></i>
-                                <span class="check">اعمال نظر مستقیم کارفرما</span>
+                                <span class="check">مشاوره سئو رایگان (2 ساعت)</span>
                             </li>
                             <li>
                                 <i class="las la-check"></i>
-                                <span class="check">کدنویسی اختصاصی پلاگین</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">بهینه سازی تضمینی</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">تحویل در 35 روز کاری</span>
+                                <span class="check">آنالیز رایگان وب سایت (یکبار)</span>
                             </li>
                         </ul>
                         <a href="https://panel.gmaxads.com/" target="_blank" class="link">سفارش</a>
                     </div>
                     <div class="plan" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
-                        <div class="title">طراحی وب سایت معمولی</div>
-                        <p class="offer">شخصی سازی قالب های آماده با نظر مشتری و اضافه کردن قابلیت های مورد نیاز شما</p>
-                        <div class="price">15 تا 20 میلیون <span class="format">تومان</span></div>
+                        <div class="title">200 دلار</div>
+                        <p class="offer">2 درصد تخفیف</p>
+                        <div class="price">11,556,000<span class="format">تومان</span></div>
                         <ul class="features">
                             <li>
+                                <i class="las la-check"></i>
+                                <span class="check">دسترسی مستقیم به اکانت</span>
+                            </li>
+                            <li>
+                                <i class="las la-check"></i>
+                                <span class="check">مشاوره رایگان</span>
+                            </li>
+                            <li>
                                 <i class="las la-times"></i>
-                                <span class="uncheck">طراحی اختصاصی</span>
+                                <span class="uncheck">مشاوره سئو رایگان (2 ساعت)</span>
                             </li>
                             <li>
                                 <i class="las la-times"></i>
-                                <span class="uncheck">کدنویسی اختصاصی پلاگین</span>
+                                <span class="uncheck">آنالیز رایگان وب سایت (یکبار)</span>
+                            </li>
+                        </ul>
+                        <a href="https://panel.gmaxads.com/" target="_blank" class="link">سفارش</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 column">
+                <div class="head dirham-head">قیمت به درهم</div>
+            </div>
+
+            <div class="col-12 col-xl-10 mx-auto column">
+                <div class="pricing-content dirham-table">
+                    <div class="plan" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
+                        <div class="title">1000 درهم</div>
+                        <p class="offer">3 درصد تخفیف</p>
+                        <div class="price">15,605,000<span class="format">تومان</span></div>
+                        <ul class="features">
+                            <li>
+                                <i class="las la-check"></i>
+                                <span class="check">دسترسی مستقیم به اکانت</span>
                             </li>
                             <li>
                                 <i class="las la-check"></i>
-                                <span class="check">شخصی سازی ظاهر قالب</span>
+                                <span class="check">مشاوره رایگان</span>
+                            </li>
+                            <li>
+                                <i class="las la-times"></i>
+                                <span class="uncheck">مشاوره سئو رایگان (2 ساعت)</span>
+                            </li>
+                            <li>
+                                <i class="las la-times"></i>
+                                <span class="uncheck">آنالیز رایگان وب سایت (یکبار)</span>
+                            </li>
+                        </ul>
+                        <a href="https://panel.gmaxads.com/" target="_blank" class="link">سفارش</a>
+                    </div>
+                    <div class="plan popular" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
+                        <span class="comment">پیشنهاد ما</span>
+                        <div class="title">3000 درهم</div>
+                        <p class="offer">5 درصد تخفیف</p>
+                        <div class="price">45,960,000<span class="format">تومان</span></div>
+                        <ul class="features">
+                            <li>
+                                <i class="las la-check"></i>
+                                <span class="check">دسترسی مستقیم به اکانت</span>
                             </li>
                             <li>
                                 <i class="las la-check"></i>
-                                <span class="check">بهینه سازی قالب</span>
+                                <span class="check">مشاوره رایگان</span>
                             </li>
                             <li>
                                 <i class="las la-check"></i>
-                                <span class="check">جلسه ی هماهنگی با کارفرما برای شروع و پایان پروژه</span>
+                                <span class="check">مشاوره سئو رایگان (2 ساعت)</span>
                             </li>
                             <li>
                                 <i class="las la-check"></i>
-                                <span class="check">تحویل در 20 روز کاری</span>
+                                <span class="check">آنالیز رایگان وب سایت (یکبار)</span>
+                            </li>
+                        </ul>
+                        <a href="https://panel.gmaxads.com/" target="_blank" class="link">سفارش</a>
+                    </div>
+                    <div class="plan" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
+                        <div class="title">500 درهم</div>
+                        <p class="offer">2 درصد تخفیف</p>
+                        <div class="price">7,875,000<span class="format">تومان</span></div>
+                        <ul class="features">
+                            <li>
+                                <i class="las la-check"></i>
+                                <span class="check">دسترسی مستقیم به اکانت</span>
+                            </li>
+                            <li>
+                                <i class="las la-check"></i>
+                                <span class="check">مشاوره رایگان</span>
+                            </li>
+                            <li>
+                                <i class="las la-times"></i>
+                                <span class="uncheck">مشاوره سئو رایگان (2 ساعت)</span>
+                            </li>
+                            <li>
+                                <i class="las la-times"></i>
+                                <span class="uncheck">آنالیز رایگان وب سایت (یکبار)</span>
                             </li>
                         </ul>
                         <a href="https://panel.gmaxads.com/" target="_blank" class="link">سفارش</a>
@@ -230,9 +296,9 @@
                 </div>
 
                 <div class="col-12 col-xl-7 order-1 order-xl-2 content-column column">
-                    <h2 class="title">جیمکس، تا موفقیت وب سایت شما همراه شماست</h2>
+                    <h2 class="title">به کمک جیمکس ادز مشتریان خود را پیدا کنید</h2>
                     <p class="desc">
-                        ما تا انتهای مسیر موفقیت در کنار شما خواهیم بود. پس از ساخته شدن وب سایت، به وسیله ی تبلیغ در گوگل و یوتیوب می توانید با بودجه ای مناسب، مشتریان اصلی و مرتبط خود را پیدا کنید. به وسیله ی ابزارهای هوشمند گوگل، این تبلیغات به مرور زمان بهتر شده و نتایجی بهتر برای کسب و کار شما به ارمغان می آورند
+                        به وسیله ی تبلیغ در گوگل و یوتیوب می توانید با بودجه ای مناسب، مشتریان اصلی و مرتبط خود را پیدا کنید. به وسیله ی ابزارهای هوشمند گوگل، این تبلیغات به مرور زمان بهتر شده و نتایجی بهتر برای کسب و کار شما به ارمغان می آورند
                     </p>
                 </div>
             </div>
@@ -335,48 +401,75 @@
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                طراحی وب سایت چیست؟
+                                هزینه هر کلیک چقدر است؟
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                طراحی وب سایت فرآیند ایجاد و ساختن یک وب سایت است. این حرفه شامل ترکیبی از مهارت ها و رشته های مختلف مانند طراحی گرافیکی، طراحی رابط کاربری و کدنویسی است.
+                                هزینه ی هر کلیک به سه فاکتور بستگی دارد.
+                                گوگل مزایده بوده، بنابراین هر چقدر رقابت بیشتری داشته باشید، برای نمایش در لینک های اول هزینه ی بیشتری لازم است
+                                میزان سرچ کلمات شما در هزینه ی هر کلیک تاثیر گذار است، هر چقدر کلمات شما کم سرچ تر باشد، هزینه ی کلیک تان افزایش پیدا می کند
+                                امتیاز کیفی سایت شما، به این معنی که هر چقدر گوگل امتیاز کیفی بیشتری به سایت شما بدهد، هزینه کلیکتان بهتر خواهد شد
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                چرا به یک وب سایت نیاز دارم؟
+                                آیا دسترسی مستقیم به پنل گوگل ادز را خواهیم داشت؟
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                یک وب سایت می تواند به ایجاد حضور آنلاین کسب و کار شما کمک کند و بستری برای فروش یا شناخته شدن برند شما باشد. همچنین می تواند به شما کمک کند تا به مخاطبان بیشتری دست پیدا کنید و محصولات یا خدمات خود را تبلیغ کنید.
+                                بله شما می توانید تمامی گزارش ها را از پنل گوگل ادز دریافت و بررسی نمایید
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                طراحی وب سایت چقدر طول می کشد؟
+                                چقدر زمان می برد تا تبلیغ من در لینک اول نمایش یابد؟
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                زمان لازم برای ایجاد یک وب سایت بسته به پیچیدگی طراحی، تعداد صفحات و قابلیت های مورد نیاز شما متفاوت است. طراحی یک وب سایت ساده ممکن است چند روز طول بکشد، در حالی که یک وب سایت پیچیده تر ممکن است چندین هفته یا حتی ماه ها طول بکشد. پس از مشخص شدن نیاز های شما، تیم جیمکس برآورد کاملی از زمان تحویل پروژه به شما خواهند داد.
+                                بعد از 24 تا 48 ساعت آنالیز گوگل، در صورتی که هزینه ی کلیک شما از رقبایتان بالاتر باشد، در لینک اول گوگل نمایش خواهید یافت.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="900" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                طراحی ریسپانسیو چیست؟
+                                آیا پروموشن کد گوگل به ما تعلق خواهد گرفت؟
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                طراحی واکنش گرا یا ریسپانسیو یک رویکرد طراحی وب است که تضمین می کند یک وب سایت در همه دستگاه ها از جمله دسکتاپ، لپ تاپ، تبلت و گوشی های هوشمند به خوبی کار می کند. با توجه به استفاده روز افزون از گوشی های همراه و تبلت ها، رسپانسیو بودن وب سایت اهمیت بسیاری دارد.
+                                بله. پروموشن کد گوگل بسته به میزان مصرف اکانت شما متفاوت است اما به هر میزان که گوگل به شما پروموشن کد بدهد، به صورت رایگان بر روی اکانت شما فعال خواهد شد
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1200" data-aos-easing="ease-in-sine">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                گوگل ادز چه مقدار به فروش بیشتر من کمک خواهد کرد؟
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                میزان افزایش فروش شما به شرایط مختلفی از جمله کیفیت خدمات و قیمت های شما بستگی دارد. ما می توانیم به شما مشاوره داده و شما را در این مسیر راهنمایی کنیم.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1500" data-aos-easing="ease-in-sine">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                چرا زمانی که رقبای من تبلیغی در گوگل ندارند، باز هم هزینه ی کلیک من حداقل نیست؟
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                رقبای شما صرفا افرادی که از سرویس گوگل ادز استفاده می کنند نیستند. بلکه سایت هایی که سئو قوی ای دارند نیز، مثل ویکی پدیا و دیجیکالا، رقیب شما محسوب شده و برای نمایش بالاتر از آنها لازم است هزینه ی کلیک خود را افزایش دهید.
                             </div>
                         </div>
                     </div>

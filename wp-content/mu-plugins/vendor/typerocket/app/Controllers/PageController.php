@@ -55,7 +55,7 @@ class PageController extends WPPostController
     public function studio(Page $page, Option $option)
     {
         $queried_object = get_queried_object();
-        return tr_view('page-', compact('queried_object') );
+        return tr_view('page-studio', compact('queried_object') );
     }
 
     public function fraudclicks(Page $page, Option $option)

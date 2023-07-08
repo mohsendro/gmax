@@ -54,6 +54,14 @@ button:focus:not(:focus-visible) {
     box-shadow: none !important;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-text-fill-color: var(--description-color);
+    transition: background-color 9999s ease-in-out 0s;
+}
+
 /* Bootstrap Config */
 @media (max-width: 575.98px) {
 
