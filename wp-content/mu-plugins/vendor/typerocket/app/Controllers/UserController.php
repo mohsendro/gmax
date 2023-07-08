@@ -12,6 +12,7 @@ class UserController extends WPUserController
 
     public function home(User $user, Option $option)
     {
+        $queried_object = get_queried_object();
         $where_option = [
             [
                 'column'   => 'option_name',
@@ -19,7 +20,7 @@ class UserController extends WPUserController
                 'value'    => 'posts_per_page'
             ]
         ];
-        $option = $option->find()->where($where_option)->select('option_value')->get()->toArray();
+        $option = $option->findAll()->where($where_option)->select('option_value')->get()->toArray();
         $option = $option[0]['option_value'];
 
         $where_user = [
@@ -36,7 +37,8 @@ class UserController extends WPUserController
             //     'value'    => 1
             // ]
         ];
-        $users = $user->findAll()->with('meta')->whereMeta($whereMeta_user)->where($where_user)->orderBy('id', 'DESC');
+        // $users = $user->findAll()->with('meta')->whereMeta($whereMeta_user)->where($where_user)->orderBy('id', 'DESC');
+        $users = $user->findAll()->with('meta')->orderBy('id', 'DESC');
         $users_data = $users; 
         $users = $users->get();
 
@@ -56,7 +58,8 @@ class UserController extends WPUserController
             
         }  
 
-        return tr_view('author', compact('users', 'count', 'total_page', 'current_page') );
+        return include( get_query_template( '404' ) );
+        // return tr_view('author', compact('users', 'count', 'total_page', 'current_page', 'queried_object') );
     }
 
     public function page(User $user, Option $option)
@@ -67,6 +70,7 @@ class UserController extends WPUserController
 
     public function archive(User $user, Option $option, $number)
     {
+        $queried_object = get_queried_object();
         $where_option = [
             [
                 'column'   => 'option_name',
@@ -74,7 +78,7 @@ class UserController extends WPUserController
                 'value'    => 'posts_per_page'
             ]
         ];
-        $option = $option->find()->where($where_option)->select('option_value')->get()->toArray();
+        $option = $option->findAll()->where($where_option)->select('option_value')->get()->toArray();
         $option = $option[0]['option_value'];
 
         $where_user = [
@@ -91,7 +95,8 @@ class UserController extends WPUserController
             //     'value'    => 1
             // ]
         ];
-        $users = $user->findAll()->with('meta')->whereMeta($whereMeta_user)->where($where_user)->orderBy('id', 'DESC');
+        // $users = $user->findAll()->with('meta')->whereMeta($whereMeta_user)->where($where_user)->orderBy('id', 'DESC');
+        $users = $user->findAll()->with('meta')->orderBy('id', 'DESC');
         $users_data = $users; 
         $users = $users->get();
 
@@ -122,7 +127,8 @@ class UserController extends WPUserController
             
         } 
 
-        return tr_view('author', compact('users', 'count', 'total_page', 'current_page') );
+        return include( get_query_template( '404' ) );
+        // return tr_view('author', compact('users', 'count', 'total_page', 'current_page', 'queried_object') );
     }
 
     public function single(User $user, $slug)
@@ -144,7 +150,8 @@ class UserController extends WPUserController
 
         if( $user ) {
 
-            return tr_view('single-author', compact('user', 'slug') );
+            return include( get_query_template( '404' ) );
+            // return tr_view('single-author', compact('user', 'slug') );
 
         } else {
 

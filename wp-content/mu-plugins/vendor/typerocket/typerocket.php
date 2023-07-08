@@ -27,8 +27,8 @@ require_once plugin_dir_path(__FILE__) . 'functions/posttype/post.php';
 // require_once plugin_dir_path(__FILE__) . 'functions/posttype/posttypesample.php';
 
 // Taxonomies
-// require_once plugin_dir_path(__FILE__) . 'functions/taxonomy/category.php';
-// require_once plugin_dir_path(__FILE__) . 'functions/taxonomy/tag.php';
+require_once plugin_dir_path(__FILE__) . 'functions/taxonomy/category.php';
+require_once plugin_dir_path(__FILE__) . 'functions/taxonomy/tag.php';
 // require_once plugin_dir_path(__FILE__) . 'functions/taxonomy/taxonomysample.php';
 
 // Meta Boxes

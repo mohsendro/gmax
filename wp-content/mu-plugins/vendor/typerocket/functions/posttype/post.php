@@ -18,7 +18,7 @@ function add_rewrite_rules( $wp_rewrite )
 }
 add_action('generate_rewrite_rules', 'add_rewrite_rules'); 
 
-function change_blog_links($post_link, $id=0){
+function change_blog_links($post_link, $id=0) {
 
     $post = get_post($id);
 

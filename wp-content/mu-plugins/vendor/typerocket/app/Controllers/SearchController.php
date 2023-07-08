@@ -18,6 +18,7 @@ class SearchController extends WPPostController
 
     public function archive(Post $post, Option $option, $param)
     {
+        $queried_object = get_queried_object();
         $where_option = [
             [
                 'column'   => 'option_name',
@@ -25,7 +26,7 @@ class SearchController extends WPPostController
                 'value'    => 'posts_per_page'
             ]
         ];
-        $option = $option->find()->where($where_option)->select('option_value')->get()->toArray();
+        $option = $option->findAll()->where($where_option)->select('option_value')->get()->toArray();
         $option = $option[0]['option_value'];
 
         $param = urldecode($param);
@@ -42,14 +43,7 @@ class SearchController extends WPPostController
                 'value'    =>  '%'.$param.'%'
             ]
         ];
-        $whereMeta_search = [
-            // [
-            //     'column'   => 'gallery_in_site',
-            //     'operator' => '=',
-            //     'value'    => 1
-            // ]
-        ];
-        $posts = $post->findAll()->with('meta')->whereMeta($whereMeta_search)->where($where_search)->orderBy('id', 'DESC');
+        $posts = $post->findAll()->with('meta')->where($where_search)->orderBy('id', 'DESC');
         $posts_data = $posts; 
         $posts = $posts->get(); 
         
@@ -58,13 +52,13 @@ class SearchController extends WPPostController
             $count = $posts->count();
             $total_page = ceil($count / $option);
 
-            if( intval($_GET['page']) ) {
+            if( isset($_GET['page']) && intval($_GET['page']) ) {
                 $current_page = $_GET['page'];
             } else {
                 $current_page = 1;
             } 
             
-            if( intval($_GET['page']) ) {
+            if( isset($_GET['page']) && intval($_GET['page']) ) {
                 if( (intval($_GET['page']) <= $total_page) && (intval($_GET['page']) >= 1) ) {
                     $posts = $posts_data->take($option, (intval($_GET['page'])-1)*$option)->get();
                     if( $_GET['page'] == 1 ) {
@@ -89,6 +83,6 @@ class SearchController extends WPPostController
             
         }
                 
-        return tr_view('search', compact('posts', 'count', 'total_page', 'current_page', 'param') );
+        return tr_view('search', compact('posts', 'count', 'total_page', 'current_page', 'param', 'queried_object') );
     }
 }

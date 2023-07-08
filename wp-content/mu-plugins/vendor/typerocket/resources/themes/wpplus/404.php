@@ -11,7 +11,7 @@
                     <div class='error-text'>
                         <div class="title">صفحه‌ای یافت نشد!</div>
                         <!-- Component Button Start -->
-                        <a href="<?php get_home_url(); ?>contact-us/" class="btn-default">
+                        <a href="<?php echo get_home_url(); ?>/contact-us/" class="btn-default">
                             <button type="button" class="btn">
                                 <span>رفتن به صفحه اصلی</span>
                                 <i class="las la-angle-left"></i>

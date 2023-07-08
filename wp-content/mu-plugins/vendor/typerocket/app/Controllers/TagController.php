@@ -16,6 +16,7 @@ class TagController extends WPTermController
 
     public function tag(Tag $tag, Option $option, $tag_name, $number = 1)
     {
+        $queried_object = get_queried_object();
         $where_option = [
             [
                 'column'   => 'option_name',
@@ -33,7 +34,8 @@ class TagController extends WPTermController
                 'value'    => $tag_name
             ]
         ];
-        $tag = $tag->first()->where($where_tag)->get();
+        $tag = $tag->findAll()->where($where_tag)->get();
+        $tag = $tag[0];
 
         if( $tag != null || $tag > 0 )  {
 
@@ -74,11 +76,12 @@ class TagController extends WPTermController
 
         }
 
-        return tr_view('tag', compact('tag', 'posts', 'count', 'total_page', 'current_page') );
+        return tr_view('tag', compact('tag', 'posts', 'count', 'total_page', 'current_page', 'queried_object') );
     }
 
     public function archive(Tag $tag, Option $option, $tag_name, $number)
     {
+        $queried_object = get_queried_object();
         $where_option = [
             [
                 'column'   => 'option_name',
@@ -96,7 +99,8 @@ class TagController extends WPTermController
                 'value'    => $tag_name
             ]
         ];
-        $tag = $tag->first()->where($where_tag)->get();
+        $tag = $tag->findAll()->where($where_tag)->get();
+        $tag = $tag[0];
 
         if( $tag != null || $tag > 0 )  {
 
@@ -137,6 +141,6 @@ class TagController extends WPTermController
 
         } 
 
-        return tr_view('tag', compact('tag', 'posts', 'count', 'total_page', 'current_page') );
+        return tr_view('tag', compact('tag', 'posts', 'count', 'total_page', 'current_page', 'queried_object') );
     }
 }

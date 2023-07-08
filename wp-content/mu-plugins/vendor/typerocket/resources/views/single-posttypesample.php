@@ -1,8 +1,4 @@
-<?php
-
-if ( ! defined( 'ABSPATH' ) ) { die; } // Cannot access directly.
-
-?>
+<?php if ( ! defined( 'ABSPATH' ) ) { die; } // Cannot access directly. ?>
 
 <?php get_header(); ?>
 

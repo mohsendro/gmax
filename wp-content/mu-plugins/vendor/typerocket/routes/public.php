@@ -19,6 +19,19 @@
 // Index or Front-page
 tr_route()->get()->match('/')->do('index@FronPageController');
 
+// Other Pages
+tr_route()->get()->match('/webdesign')->do('webdesign@PageController');
+tr_route()->get()->match('/seo')->do('seo@PageController');
+tr_route()->get()->match('/google')->do('google@PageController');
+tr_route()->get()->match('/youtube')->do('youtube@PageController');
+tr_route()->get()->match('/services')->do('services@PageController');
+tr_route()->get()->match('/monetization')->do('monetization@PageController');
+tr_route()->get()->match('/studio')->do('studio@PageController');
+tr_route()->get()->match('/fraudclicks')->do('fraudclicks@PageController');
+tr_route()->get()->match('/about')->do('about@PageController');
+tr_route()->get()->match('/contact')->do('contact@PageController');
+
+
 // Blog or Post
 tr_route()->get()->match('/blog')->do('home@PostController');
 // // tr_route()->get()->match('/blog/page')->do('page@PostController');
@@ -41,17 +54,19 @@ tr_route()->get()->match('/blog/([^\/]+)', ['slug'])->do('single@PostController'
 // tr_route()->get()->match('/post-type/([^\/]+)', ['slug'])->do('single@PostTypeSampleController'); // single
 
 // Author
-// tr_route()->get()->match('/author')->do('home@UserController');
-// tr_route()->get()->match('/author/page')->do('page@UserController');
-// tr_route()->get()->match('/author/page/([^\/]+)', ['number'])->do('archive@UserController');
-// tr_route()->get()->match('/author/([^\/]+)', ['slug'])->do('single@UserController'); // single
+tr_route()->get()->match('/author')->do('home@UserController');
+tr_route()->get()->match('/author/page')->do('page@UserController');
+tr_route()->get()->match('/author/page/([^\/]+)', ['number'])->do('archive@UserController');
+tr_route()->get()->match('/author/([^\/]+)', ['slug'])->do('single@UserController'); // single
 
 // Metadata Archive
 // tr_route()->get()->match('/post-type')->do('home@PostTypeSampleController');
 
 // Search
-// tr_route()->get()->match('/search')->do('page@SearchController');
-// tr_route()->get()->match('/search/([^\/]+)', ['param'])->do('archive@SearchController');
+tr_route()->get()->match('/search')->do('page@SearchController');
+tr_route()->get()->match('/search/([^\/]+)', ['param'])->do('archive@SearchController');
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -67,10 +82,11 @@ function wpplus_hierarchy_index_template($template, $type, $templates) {
 // add_filter( 'frontpage_template', 'wpplus_hierarchy_index_template', 10, 3 );
 // add_filter( 'index_template', 'wpplus_hierarchy_index_template', 10, 3 );
 
-
-
 function wpplus_hierarchy_template($template, $type, $templates) {
-    if( is_tax('advertising_cat') ) {
+    var_dump( $templates );
+    die();
+
+    if( is_tax('category') ) {
 
         $controller = new \App\Controllers\FronPageController;
         $controller = $controller::test(); // test == method  /* Build the model inside the method and don't give it as argument input to the method  */
@@ -78,4 +94,4 @@ function wpplus_hierarchy_template($template, $type, $templates) {
         die();
     }
 }
-// add_filter( 'taxonomy_template', 'wpplus_hierarchy_template', 10, 3 );
+// add_filter( 'single_template', 'wpplus_hierarchy_template', 10, 3 );

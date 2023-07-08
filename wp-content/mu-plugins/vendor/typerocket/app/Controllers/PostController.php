@@ -2,6 +2,7 @@
 namespace App\Controllers;
 
 use App\Models\Post;
+use App\Models\Category;
 use App\Models\Option;
 use TypeRocket\Controllers\WPPostController;
 use TypeRocket\Http\Request;
@@ -61,6 +62,7 @@ class PostController extends WPPostController
 
     public function archive(Post $post, Option $option, $number)
     {
+        $queried_object = get_queried_object();
         $where_option = [
             [
                 'column'   => 'option_name',
@@ -109,11 +111,12 @@ class PostController extends WPPostController
             
         } 
 
-        return tr_view('home', compact('posts', 'count', 'total_page', 'current_page') );
+        return tr_view('home', compact('posts', 'count', 'total_page', 'current_page', 'queried_object') );
     }
 
-    public function single(Post $post, $slug)
+    public function single(Post $post, Category $category, Option $option, $slug)
     {
+        $queried_object = get_queried_object();
         $where_post = [
             [
                 'column'   => 'post_status',
@@ -129,9 +132,28 @@ class PostController extends WPPostController
         ];
         $post = $post->first()->with('meta')->where($where_post)->get();
 
+        $cat_terms = get_the_terms($post->ID, 'category');
+        $tag_terms = get_the_terms($post->ID, 'post_tag');
+
+        $where_option = [
+            [
+                'column'   => 'option_name',
+                'operator' => '=',
+                'value'    => 'posts_per_page'
+            ]
+        ];
+        $option = $option->findAll()->where($where_option)->select('option_value')->get()->toArray();
+        $option = $option[0]['option_value'];
+
+        // $cate_id = get_the_category($post->ID);
+        // $cate_id = $related_cat[0]->term_id;
+        $cat_id = get_post_meta($post->ID, 'rank_math_primary_category', true);
+        $cat_term = get_term($cat_id);
+        $related_posts = $category->findById($cat_id)->posts()->take($option, 0)->get();
+        
         if( $post ) {
 
-            return tr_view('single-post', compact('post', 'slug') );
+            return tr_view('single-post', compact('post', 'slug', 'queried_object', 'cat_terms', 'tag_terms', 'related_posts', 'cat_term') );
 
         } else {
 

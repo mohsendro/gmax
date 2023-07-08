@@ -1,8 +1,4 @@
-<?php
-
-if ( ! defined( 'ABSPATH' ) ) { die; } // Cannot access directly.
-
-?>
+<?php if ( ! defined( 'ABSPATH' ) ) { die; } // Cannot access directly. ?>
 
 <?php get_header(); ?>
 
@@ -10,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) { die; } // Cannot access directly.
 
 <?php
     require TYPEROCKET_DIR_PATH . '/functions/snippets/pagination.php';
-    normal_pagination(home_url('taxonomysample/' . $taxonomy->slug . '/page'), $current_page, $total_page, true);
+    insertPagination(home_url('taxonomysample/' . $taxonomy->slug . '/page'), $current_page, $total_page, true);
 ?>
 
 <?php get_footer(); ?>

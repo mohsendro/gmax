@@ -68,4 +68,4 @@ $post_type_sample->setSupports(['title', 'thumbnail', 'editor', 'excerpt', 'auth
 // $post_type_sample->setModelClass(\App\Models\PsotTypeSample::class)
 //             ->saveTitleAs(function (\App\Models\PsotTypeSample $post_type_sample, \TypeRocket\Http\Request $request) {
 //                 return $post_type_sample->data->$request->getDataPost('post_title');
-//             });
+// });

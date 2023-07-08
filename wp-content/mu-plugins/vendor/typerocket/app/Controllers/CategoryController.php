@@ -16,6 +16,7 @@ class CategoryController extends WPTermController
 
     public function category(Category $category, Option $option, $cat_name, $number = 1)
     {
+        $queried_object = get_queried_object();
         $where_option = [
             [
                 'column'   => 'option_name',
@@ -34,10 +35,11 @@ class CategoryController extends WPTermController
             ]
         ];
         $category = $category->findAll()->where($where_category)->get();
+        $category = $category[0];
 
         if( $category != null || $category > 0 )  {
 
-            $posts = $category[0]->posts();
+            $posts = $category->posts();
             $posts_data = $posts;
             $posts = $posts->get();
 
@@ -74,11 +76,12 @@ class CategoryController extends WPTermController
 
         }
         
-        return tr_view('category', compact('category', 'posts', 'count', 'total_page', 'current_page') );
+        return tr_view('category', compact('category', 'posts', 'count', 'total_page', 'current_page', 'queried_object') );
     }
 
     public function archive(Category $category, Option $option, $cat_name, $number)
     {
+        $queried_object = get_queried_object();
         $where_option = [
             [
                 'column'   => 'option_name',
@@ -96,7 +99,8 @@ class CategoryController extends WPTermController
                 'value'    => $cat_name
             ]
         ];
-        $category = $category->first()->where($where_category)->get();
+        $category = $category->findAll()->where($where_category)->get();
+        $category = $category[0];
 
         if( $category != null || $category > 0 )  {
 
@@ -137,6 +141,6 @@ class CategoryController extends WPTermController
 
         }       
 
-        return tr_view('category', compact('category', 'posts', 'count', 'total_page', 'current_page') );
+        return tr_view('category', compact('category', 'posts', 'count', 'total_page', 'current_page', 'queried_object') );
     }
 }
