@@ -70,14 +70,12 @@
                 <div class="col-12 col-xl-6 form-column column">
                     <form method="post" class="zone" id="newsletter">
                         <input type="email" name="email" placeholder="ایمیل خود را وارد کنید" require>
-                        <button type="button" onclick="newsletterAjaxJs()">
+                        <button type="button" onclick="newsletterAjaxJs()"onkeypress="return event.keyCode != 13;">
                             <i class="las la-envelope-open-text"></i>
                             <span class="bodymovin"></span>
                             <span class="text">ارسال ایمیل</span>
                         </button>
                     </form>
-
-                    <?php // echo do_shortcode('[contact-form-7 id="25" title="خبرنامه"]'); ?>
                 </div>
             </div>
 

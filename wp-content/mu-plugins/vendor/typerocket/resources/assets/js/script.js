@@ -211,3 +211,12 @@ function startLoop() {
     anim.removeEventListener('complete', startLoop);
     anim.playSegments([9, 13], true);
 }
+
+
+// newsletter disable send
+const form = document.getElementById('newsletter');
+form.addEventListener('keypress', function(e) {
+  if (e.keyCode === 13) {
+    e.preventDefault();
+  }
+});

@@ -31,6 +31,7 @@ return [
          */
         '\TypeRocket\Services\ErrorService',
         '\TypeRocket\Services\MailerService',
+        // '\TypeRocket\Pro\Services\TemplateRouter', // add the template router
 
         /*
          * Application Service Providers...

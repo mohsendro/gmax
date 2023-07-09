@@ -83,15 +83,9 @@ function wpplus_hierarchy_index_template($template, $type, $templates) {
 // add_filter( 'index_template', 'wpplus_hierarchy_index_template', 10, 3 );
 
 function wpplus_hierarchy_template($template, $type, $templates) {
-    var_dump( $templates );
-    die();
 
-    if( is_tax('category') ) {
+    // $controller = new \App\Controllers\PostController;
+    // $controller = $controller->test();
 
-        $controller = new \App\Controllers\FronPageController;
-        $controller = $controller::test(); // test == method  /* Build the model inside the method and don't give it as argument input to the method  */
-        var_dump( get_queried_object() );
-        die();
-    }
 }
 // add_filter( 'single_template', 'wpplus_hierarchy_template', 10, 3 );

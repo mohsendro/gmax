@@ -96,6 +96,18 @@
                 </div>
             </div> 
         <?php endif; ?>
+
+        <?php
+            // var_dump($post->ID);
+            // if ( comments_open() || get_comments_number() ) :
+            //     comments_template();
+            // endif;
+            
+            
+
+            
+
+        ?>
     </section>
 </main>
 

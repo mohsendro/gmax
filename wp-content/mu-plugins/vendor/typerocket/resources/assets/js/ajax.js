@@ -54,60 +54,82 @@ function newsletterAjaxJs(event) {
     } else {
 
         jQuery.ajax({
-                url: newsletter_ajax_localize_obj.ajax_url,
-                type: 'post',
-                dataType: 'json',
-                data: {
-                    action: 'newsletter_ajax_handle',
-                    submitted_nonce: newsletter_ajax_localize_obj.the_nonce,
-                    newsLetterInput: newsLetterInput,
-                },
-                success: function (response) {
-                    if( response.data.status ) {
-                        Command: toastr["success"]("ایمیل شما در خبرنامه ثبت شد", "تبریک")
-                        toastr.options = {
-                          "closeButton": true,
-                          "debug": false,
-                          "newestOnTop": false,
-                          "progressBar": true,
-                          "positionClass": "toast-bottom-center",
-                          "preventDuplicates": false,
-                          "onclick": null,
-                          "showDuration": "300",
-                          "hideDuration": "1000",
-                          "timeOut": "3000",
-                          "extendedTimeOut": "3000",
-                          "showEasing": "swing",
-                          "hideEasing": "linear",
-                          "showMethod": "fadeIn",
-                          "hideMethod": "fadeOut"
-                        }
-                    } else {
-                        Command: toastr["warning"]("این ایمیل در سایت ثبت می باشد", "توجه")
-                        toastr.options = {
-                          "closeButton": true,
-                          "debug": false,
-                          "newestOnTop": false,
-                          "progressBar": true,
-                          "positionClass": "toast-bottom-center",
-                          "preventDuplicates": false,
-                          "onclick": null,
-                          "showDuration": "300",
-                          "hideDuration": "1000",
-                          "timeOut": "3000",
-                          "extendedTimeOut": "3000",
-                          "showEasing": "swing",
-                          "hideEasing": "linear",
-                          "showMethod": "fadeIn",
-                          "hideMethod": "fadeOut"
-                        }
+            url: newsletter_ajax_localize_obj.ajax_url,
+            type: 'post',
+            dataType: 'json',
+            data: {
+                action: 'newsletter_ajax_handle',
+                submitted_nonce: newsletter_ajax_localize_obj.the_nonce,
+                newsLetterInput: newsLetterInput,
+            },
+            success: function (response) {
+                if( response.data.status ) {
+                    Command: toastr["success"]("ایمیل شما در خبرنامه ثبت شد", "تبریک")
+                    toastr.options = {
+                        "closeButton": true,
+                        "debug": false,
+                        "newestOnTop": false,
+                        "progressBar": true,
+                        "positionClass": "toast-bottom-center",
+                        "preventDuplicates": false,
+                        "onclick": null,
+                        "showDuration": "300",
+                        "hideDuration": "1000",
+                        "timeOut": "3000",
+                        "extendedTimeOut": "3000",
+                        "showEasing": "swing",
+                        "hideEasing": "linear",
+                        "showMethod": "fadeIn",
+                        "hideMethod": "fadeOut"
                     }
-                },
-                error: function (response) {
-                    // alert('Error retrieving the information: ' + response.status + ' ' + response.statusText);
+                } else {
+                    Command: toastr["warning"]("این ایمیل در سایت ثبت می باشد", "توجه")
+                    toastr.options = {
+                        "closeButton": true,
+                        "debug": false,
+                        "newestOnTop": false,
+                        "progressBar": true,
+                        "positionClass": "toast-bottom-center",
+                        "preventDuplicates": false,
+                        "onclick": null,
+                        "showDuration": "300",
+                        "hideDuration": "1000",
+                        "timeOut": "3000",
+                        "extendedTimeOut": "3000",
+                        "showEasing": "swing",
+                        "hideEasing": "linear",
+                        "showMethod": "fadeIn",
+                        "hideMethod": "fadeOut"
+                    }
                 }
+            },
+            error: function (response) {
+                // alert('Error retrieving the information: ' + response.status + ' ' + response.statusText);
+            }
         });
 
     }
+
+}
+
+
+function newsletterExport(event) {
+
+    jQuery.ajax({
+        url: newsletter_ajax_localize_obj.ajax_url,
+        type: 'post',
+        dataType: 'json',
+        data: {
+            action: 'newsletter_export_ajax_handle',
+            submitted_nonce: newsletter_ajax_localize_obj.the_nonce,
+        },
+        success: function (response) {
+            console.log(response);
+            alert('خروجی اکسل دانلود شد');
+        },
+        error: function (response) {
+            // alert('Error retrieving the information: ' + response.status + ' ' + response.statusText);
+        }
+    });
 
 }

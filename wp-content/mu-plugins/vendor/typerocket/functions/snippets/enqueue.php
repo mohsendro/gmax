@@ -113,5 +113,24 @@ function wpplus_enqueue_scripts() {
 
 }
 add_action( 'wp_enqueue_scripts', 'wpplus_enqueue_scripts' );
-// add_action( 'admin_enqueue_scripts', 'wpplus_enqueue_scripts' );
+
+
+function wpplus_admin_enqueue_scripts() {
+
+    // <!-- Gmax Js -->
+	wp_register_script( 'ajax-script', TYPEROCKET_DIR_URL . 'resources/assets/js/ajax.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'ajax-script' );
+
+    // Ajax Handler
+    wp_localize_script(
+        'ajax-script', 'newsletter_ajax_localize_obj', array(
+            'ajax_url' => admin_url( 'admin-ajax.php' ),
+            'the_nonce' => wp_create_nonce('newsletter_form_nonce') 
+        )
+    );
+    
+}
+add_action( 'admin_enqueue_scripts', 'wpplus_admin_enqueue_scripts' );
+
+
 // add_action( 'enqueue_embed_scripts', 'wpplus_enqueue_scripts' );

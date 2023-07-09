@@ -38,7 +38,7 @@ require_once plugin_dir_path(__FILE__) . 'functions/taxonomy/tag.php';
 // require_once plugin_dir_path(__FILE__) . 'functions/resource/resourcesample.php';
 
 // Menu
-// require_once plugin_dir_path(__FILE__) . 'functions/menu/menusample.php';
+require_once plugin_dir_path(__FILE__) . 'functions/menu/newsletter.php';
 
 // Table
 // require_once plugin_dir_path(__FILE__) . 'functions/table/tablesample.php';

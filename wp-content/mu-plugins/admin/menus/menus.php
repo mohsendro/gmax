@@ -24,6 +24,7 @@ if( ! class_exists( 'Menus' ) ) {
              'edit.php?post_type=page',
              'edit.php',
              'edit-comments.php',
+             'menu_newsletter',
              'upload.php',
              'separator2',
              'themes.php',
