@@ -220,8 +220,8 @@ function download_csv_file_callback() {
     // loop for insert data into CSV file
     foreach ($statement as $statementFet) {
         // $wp_array = array(
-        //     "ID"=>$statementFet->ID,
-        //     "emain"=>$statementFet->email
+        //     "ID"    => $statementFet->ID,
+        //     "email" => $statementFet->email
         // );
         $wp_array = array();
         fputcsv($wp_file, $wp_array);
@@ -231,10 +231,11 @@ function download_csv_file_callback() {
     fclose($wp_file);
     
     // download csv file
-    @header("Content-Description: File Transfer");
-    @header("Content-Disposition: attachment; filename=".$wp_filename);
-    @header("Content-Type: application/csv;");
+    header("Content-Description: File Transfer");
+    header("Content-Disposition: attachment; filename=".$wp_filename);
+    header("Content-Type: application/csv;");
     readfile($wp_filename);
-    exit;
+    // exit;
+    die();
 
 }
