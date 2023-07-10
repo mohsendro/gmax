@@ -23,4 +23,8 @@
 
 <?php // get_template_part( 'components/notification' ); ?>
 <?php get_template_part( 'components/menu' ); ?>
-<?php // get_template_part( 'components/breadcrumbs' ); ?>
+<?php 
+    if( ! is_front_page() ) {
+        get_template_part( 'components/breadcrumbs' );
+    }
+?>

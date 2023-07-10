@@ -4,7 +4,6 @@
 | Routes
 |--------------------------------------------------------------------------
 */
-
 // Run Custom Controller Method
 // $controller = new \App\Controllers\PostController;
 // $controller = $controller::test(); // test == method  /* Build the model inside the method and don't give it as argument input to the method  */
@@ -17,32 +16,31 @@
 // tr_route()->get()->match('path/(\d+)', ['id'])->do('singlePageMethod@Controller'); // single
 
 // Index or Front-page
-tr_route()->get()->match('/')->do('index@FronPageController');
+// tr_route()->get()->match('/')->do('index@FronPageController');
 
 // Other Pages
-tr_route()->get()->match('/webdesign')->do('webdesign@PageController');
-tr_route()->get()->match('/seo')->do('seo@PageController');
-tr_route()->get()->match('/google')->do('google@PageController');
-tr_route()->get()->match('/youtube')->do('youtube@PageController');
-tr_route()->get()->match('/services')->do('services@PageController');
-tr_route()->get()->match('/monetization')->do('monetization@PageController');
-tr_route()->get()->match('/studio')->do('studio@PageController');
-tr_route()->get()->match('/fraudclicks')->do('fraudclicks@PageController');
-tr_route()->get()->match('/about')->do('about@PageController');
-tr_route()->get()->match('/contact')->do('contact@PageController');
-
+// tr_route()->get()->match('/webdesign')->do('webdesign@PageController');
+// tr_route()->get()->match('/seo')->do('seo@PageController');
+// tr_route()->get()->match('/google')->do('google@PageController');
+// tr_route()->get()->match('/youtube')->do('youtube@PageController');
+// tr_route()->get()->match('/services')->do('services@PageController');
+// tr_route()->get()->match('/monetization')->do('monetization@PageController');
+// tr_route()->get()->match('/studio')->do('studio@PageController');
+// tr_route()->get()->match('/fraudclicks')->do('fraudclicks@PageController');
+// tr_route()->get()->match('/about')->do('about@PageController');
+// tr_route()->get()->match('/contact')->do('contact@PageController');
 
 // Blog or Post
-tr_route()->get()->match('/blog')->do('home@PostController');
+// tr_route()->get()->match('/blog')->do('home@PostController');
 // // tr_route()->get()->match('/blog/page')->do('page@PostController');
-tr_route()->get()->match('/blog/page/([^\/]+)', ['number'])->do('archive@PostController');
+// tr_route()->get()->match('/blog/page/([^\/]+)', ['number'])->do('archive@PostController');
 // // tr_route()->get()->match('/category/([^\/]+)', ['param']')->do('home@CategoryController');
-tr_route()->get()->match('/category/([^\/]+)', ['cat_name'])->do('category@CategoryController');
-tr_route()->get()->match('/category/([^\/]+)/page/([^\/]+)', ['cat_name', 'number'])->do('archive@CategoryController');
+// tr_route()->get()->match('/category/([^\/]+)', ['cat_name'])->do('category@CategoryController');
+// tr_route()->get()->match('/category/([^\/]+)/page/([^\/]+)', ['cat_name', 'number'])->do('archive@CategoryController');
 // // tr_route()->get()->match('/tag/([^\/]+)', ['param']')->do('home@TagController');
-tr_route()->get()->match('/tag/([^\/]+)', ['tag_name'])->do('tag@TagController');
-tr_route()->get()->match('/tag/([^\/]+)/page/([^\/]+)', ['tag_name', 'number'])->do('archive@TagController');
-tr_route()->get()->match('/blog/([^\/]+)', ['slug'])->do('single@PostController'); // single
+// tr_route()->get()->match('/tag/([^\/]+)', ['tag_name'])->do('tag@TagController');
+// tr_route()->get()->match('/tag/([^\/]+)/page/([^\/]+)', ['tag_name', 'number'])->do('archive@TagController');
+// tr_route()->get()->match('/blog/([^\/]+)', ['slug'])->do('single@PostController'); // single
 
 // Post Type
 // tr_route()->get()->match('/post-type')->do('home@PostTypeSampleController');
@@ -73,19 +71,10 @@ tr_route()->get()->match('/search/([^\/]+)', ['param'])->do('archive@SearchContr
 | Template Routes
 |--------------------------------------------------------------------------
 */
-function wpplus_hierarchy_index_template($template, $type, $templates) {
+// function wpplus_hierarchy_index_template($template, $type, $templates) {
 
-    $controller = new \App\Controllers\FronPageController;
-    $controller = $controller->index();
+    // $controller = new \App\Controllers\FronPageController;
+    // $controller = $controller->index();
 
-}
+// }
 // add_filter( 'frontpage_template', 'wpplus_hierarchy_index_template', 10, 3 );
-// add_filter( 'index_template', 'wpplus_hierarchy_index_template', 10, 3 );
-
-function wpplus_hierarchy_template($template, $type, $templates) {
-
-    // $controller = new \App\Controllers\PostController;
-    // $controller = $controller->test();
-
-}
-// add_filter( 'single_template', 'wpplus_hierarchy_template', 10, 3 );

@@ -2,6 +2,10 @@
 
 <?php get_header(); ?>
 
+<?php
+    $queried_id = get_queried_object_id();
+?>
+
 <main id="main" class="main error">
     <section id="error-content" class="container-fluid error-content">
         <div class="row">
@@ -11,7 +15,7 @@
                     <div class='error-text'>
                         <div class="title">صفحه‌ای یافت نشد!</div>
                         <!-- Component Button Start -->
-                        <a href="<?php echo get_home_url(); ?>/contact-us/" class="btn-default">
+                        <a href="<?php echo get_home_url(); ?>/contact/" class="btn-default">
                             <button type="button" class="btn">
                                 <span>رفتن به صفحه اصلی</span>
                                 <i class="las la-angle-left"></i>
