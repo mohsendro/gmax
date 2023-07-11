@@ -17,30 +17,28 @@
                     <div class="links">
                         <div class="title">خدمات gmax</div>
                         <ul>
-                            <li><a href="#">تبلیغ در یوتیوب</a></li>
-                            <li><a href="#">تبلیغ در گوگل</a></li>
-                            <li><a href="#">طراحی وب سایت</a></li>
-                            <li><a href="#">خدمات سئو</a></li>
+                            <li><a href="<?php echo get_home_url() . '/youtubeads/'; ?>">تبلیغ در یوتیوب</a></li>
+                            <li><a href="<?php echo get_home_url() . '/googleads/'; ?>">تبلیغ در گوگل</a></li>
+                            <li><a href="<?php echo get_home_url() . '/website-design/'; ?>">طراحی وب سایت</a></li>
+                            <li><a href="<?php echo get_home_url() . '/seo/'; ?>">خدمات سئو</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="links">
+                        <div class="title">خدمات gmax</div>
+                        <ul>
+                            <li><a href="<?php echo get_home_url() . '/services/monetization/'; ?>">کسب درآمد از یوتیوب</a></li>
+                            <li><a href="<?php echo get_home_url() . '/services/gmaxads-studio/'; ?>">استودیو یوتیوب</a></li>
+                            <li><a href="<?php echo get_home_url() . '/services/fraudclicks/'; ?>">جلوگیری از کلیک های فیک</a></li>
                         </ul>
                     </div>
 
                     <div class="links">
                         <div class="title">با gmax</div>
                         <ul>
-                            <li><a href="#">تماس با ما</a></li>
-                            <li><a href="#">درباره ما</a></li>
-                            <li><a href="#">وبلاگ</a></li>
-                            <li><a href="#">پلن ها</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="links">
-                        <div class="title">با gmax</div>
-                        <ul>
-                            <li><a href="#">تماس با ما</a></li>
-                            <li><a href="#">درباره ما</a></li>
-                            <li><a href="#">وبلاگ</a></li>
-                            <li><a href="#">پلن ها</a></li>
+                            <li><a href="<?php echo get_home_url() . '/contact-us/'; ?>">تماس با ما</a></li>
+                            <li><a href="<?php echo get_home_url() . '/about-page/'; ?>">درباره ما</a></li>
+                            <li><a href="<?php echo get_home_url() . '/blog/'; ?>">وبلاگ</a></li>
                         </ul>
                     </div>
                 </div>

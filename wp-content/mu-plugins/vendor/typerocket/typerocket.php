@@ -32,7 +32,7 @@ require_once plugin_dir_path(__FILE__) . 'functions/taxonomy/tag.php';
 // require_once plugin_dir_path(__FILE__) . 'functions/taxonomy/taxonomysample.php';
 
 // Meta Boxes
-// require_once plugin_dir_path(__FILE__) . 'functions/metabox/metaboxsample.php';
+require_once plugin_dir_path(__FILE__) . 'functions/metabox/page.php';
 
 // Resource
 // require_once plugin_dir_path(__FILE__) . 'functions/resource/resourcesample.php';

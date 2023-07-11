@@ -21,7 +21,7 @@
             </div>
 
             <div class="col-12 col-sm-6 col-xl-4 col-xl-4 link-column column order-3 order-xl-3">
-                <a href="http://localhost/gmax-ui/search" class="btn btn-search d-block d-xl-none"><i class="las la-search"></i></a>
+                <a href="<?php echo get_home_url() . '/?s='; ?>" class="btn btn-search d-block d-xl-none"><i class="las la-search"></i></a>
                 <button class="btn btn-search d-none d-xl-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#searchOffcanvasTop" aria-controls="offcanvasTop"><i class="las la-search"></i></button>
                 <a href="tel:02191095659" class="btn btn-call"><span class="d-none d-xl-block">021-<strong>91095659</strong></span><i class="las la-phone"></i></a>
                 <a href="https://panel.gmaxads.com/index.php?rp=/login" target="_blank" type="button" class="btn btn-login"><span class="d-none d-xl-block">ورود | ثبت نام</span><i class="las la-user"></i></a>

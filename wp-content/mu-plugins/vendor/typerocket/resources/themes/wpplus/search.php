@@ -72,15 +72,17 @@
 
 <main id="main" class="main blogs">
     <section id="blog-archive" class="container blog-archive">
-        <div class="row">
-            <div class="col-12 column">
-                <!-- Component Heading Start -->
-                <div class="heading">
-                    <div class="title"><?php echo $search_query; ?></div>
+        <?php if( ! empty($search_query) ): ?>
+            <div class="row">
+                <div class="col-12 column">
+                    <!-- Component Heading Start -->
+                    <div class="heading">
+                        <div class="title"><?php echo $search_query; ?></div>
+                    </div>
+                    <!-- Component Heading End -->
                 </div>
-                <!-- Component Heading End -->
             </div>
-        </div>
+        <?php endif; ?>
 
         <?php if( $posts && ! empty($search_query) ): ?>
             <div class="row gap gx-3 gy-5">

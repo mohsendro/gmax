@@ -459,37 +459,52 @@
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                تبلیغات در گوگل چگونه به وب سایت ما کمک می کند؟
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                                تبلیغات در گوگل، که به آن Google Ads هم گفته می شود، یکی از قدرتمندترین راه‌ها برای تبلیغ محصولات و خدمات شما در اینترنت است. این سرویس به شما اجازه می‌دهد تا تبلیغات خود را در صفحات نتایج جستجوی گوگل، وب‌سایت‌های همکار گوگل (شبکه تبلیغاتی گوگل) و حتی در برنامه‌های موبایلی که تبلیغات گوگل دارند، نمایش دهید.
+                                متخصصان جیمکس متشکل از کارشناسان تبلیغات آنلاین و بهینه‌سازی جستجو، که با تجربه و تخصص خود در زمینه گوگل ادز، می‌توانند بهترین راهکارها را برای تبلیغات شما ارائه دهند.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                        </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                درآمد خود را از یوتیوب چگونه نقد کنیم؟
+                            </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-                        </div>
+                            <div class="accordion-body">
+                                کسب درآمد از یوتیوب، یکی از روش‌های جذاب و پرطرفدار برای کسب درآمد از طریق ایجاد ویدیوهای خود است. با ایجاد یک کانال یوتیوب و ارائه محتوای جذاب و مفید، می‌توانید به طور قابل توجهی درآمد کسب کنید. یوتیوب امکانات و ابزارهایی را برای تبلیغ و کسب درآمد از ویدیوها فراهم کرده است.
+                                متخصصان جیمکس با تکیه بر تجربه و تخصص، شناخت مشتریان هدف و تحقیق درباره روند و موضوعات مورد علاقه جامعه یوتیوب، می‌توانید یک کسب و کار موفق برای شما در این پلتفرم رقم زده و از تبدیل هوادارانتان به منابع درآمدی استفاده نماید.
+                            </div>
                         </div>
                     </div>
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                        </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                چرا باید سایت داشته باشیم؟
+                            </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                            <div class="accordion-body">
+                                طراحی سایت یکی از اساسی‌ترین راه‌ها برای ایجاد حضور آنلاین قوی و جذاب برای کسب و کار شماست. با طراحی یک وبسایت حرفه‌ای و سازگار با نیازهای شما و مشتریانتان، می‌توانید به صورت مداوم بازدیدکنندگان جدید جذب کنید و بازدیدکنندگان فعلی را به مشتریان وفادار تبدیل کنید.
+                                با طراحی سایت حرفه‌ای، می‌توانید به طرفداران و مشتریانتان یک تجربه کاربری بی‌نظیر ارائه دهید و باعث اعتماد بیشتر آن‌ها به کسب و کار شما شوید. اضافه‌کردن امکاناتی مانند فرم تماس، فروش آنلاین، نمونه‌کارها و بازخوردها، بخش‌های اخبار و بلاگ و اینتگراسیون با شبکه‌های اجتماعی نیز می‌تواند به ارتقای تجربه کاربری و افزایش نرخ تبدیل شما کمک کند.
+                            </div>
                         </div>
+                    </div>
+                    <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
+                        <h2 class="accordion-header" id="headingّFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseّFour" aria-expanded="false" aria-controls="collapseّFour">
+                                سئو چگونه به سایت شما کمک می کند؟
+                            </button>
+                        </h2>
+                        <div id="collapseّFour" class="accordion-collapse collapse" aria-labelledby="headingّFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                سئو پروسه بهبود دیدن شدن و رنک وب سایت شما در صفحه نتایج گوگل است. جیمکس به کمک استراتژی و تکنیک های مختلف، وب سایت شما را به استانداردهای گوگل نزدیک می کند. همین مسئله باعث می شود که وب سایت شما در گوگل و دیگر موتورهای جستجو بیشتر دیده شده و مشتریان بالقوه خود را جذب نماید.
+                            </div>
                         </div>
                     </div>
                 </div>
