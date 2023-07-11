@@ -399,6 +399,10 @@
     object-fit: cover;
 }
 
+.swiper-pagination-bullet-active {
+    background: var(--main-color-default);
+}
+
 
 /************* Component Slider Card *************/
 .slider-card {
@@ -948,6 +952,14 @@
 }
 
 .toast-message {}
+
+
+/************* Component Comment *************/
+.comment-content {}
+
+.comment-content .row {}
+
+.comment-content .column {}
 
 
 /************* Component Responsive *************/

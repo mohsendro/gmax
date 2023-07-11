@@ -3,7 +3,30 @@
 <?php get_header(); ?>
 
 <?php
-    $queried_id = get_queried_object_id(); // var_dump($queried_id);
+    $queried_id = get_queried_object_id();
+    
+    $option = new \App\Models\Option;
+    $where_option = [
+        [
+            'column'   => 'option_name',
+            'operator' => '=',
+            'value'    => 'posts_per_page'
+        ]
+    ];
+    $option = $option->findAll()->where($where_option)->select('option_value')->get()->toArray();
+    $option = $option[0]['option_value'];
+
+    $cat_terms = get_the_terms($post->ID, 'category');
+    $tag_terms = get_the_terms($post->ID, 'post_tag');
+
+    $category = new \App\Models\Category;
+    $cat_id = get_post_meta($post->ID, 'rank_math_primary_category', true);
+    if( ! $cat_id ) {
+        $cat_id = get_the_category($post->ID);
+        $cat_id = $cat_id[0]->term_id;
+    }
+    $cat_term = get_term($cat_id);
+    $related_posts = $category->findById($cat_id)->posts()->take($option, 0)->get();
 ?>
 
 <main id="main" class="main single">
@@ -102,10 +125,9 @@
         <?php endif; ?>
 
         <?php
-            // var_dump($post->ID);
-            // if ( comments_open() || get_comments_number() ) :
-            //     comments_template();
-            // endif;
+            if( comments_open() || get_comments_number() ) :
+                // comments_template();
+            endif;
         ?>
     </section>
 </main>

@@ -36,12 +36,13 @@ var swiper = new Swiper(".sliderSwiper", {
     slidesPerGroup: 1,
     loop: true,
     loopFillGroupWithBlank: true,
-    // pagination: {
-    //     el: ".swiper-pagination",
-    //     clickable: true,
-    // },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+    },
     autoplay: {
-        delay: 5000,
+        delay: 8000,
         disableOnInteraction: false,
     },
     breakpoints: {
@@ -70,10 +71,10 @@ var swiper = new Swiper(".sliderSwiper", {
             spaceBetween: 0,
         },
     },
-    scrollbar: {
-      el: ".slider-swiper-scrollbar",
-      hide: true,
-    },
+    // scrollbar: {
+        //   el: ".slider-swiper-scrollbar",
+        //   hide: true,
+    // },
 });
 
 var swiper = new Swiper(".infoBoxSwiper", {

@@ -113,12 +113,12 @@
                 <!-- Component CTA Start -->
                 <div class="content-cta">
                     <div class="title">
-                        <strong>سوالات خود را باما در میان بگذارید تا بتوانیم بهتر شما را راهنمایی کنیم!</strong>
+                        <strong>اگر همچنان سوالی در ذهن دارید با کارشناسان ما تماس حاصل فرمایید</strong>
                         <p>برای مشاوره و اطلاع از تعرفه ی خدمات تبلیغات گوگل با کارشناسان ما در تماس باشید</p>
                     </div>
-                    <a href="https://gmaxads.com/contact/" class="btn-cta" target="_blank">
+                    <a href="https://gmaxads.com/contact-us/" class="btn-cta" target="_blank">
                         <button type="button" class="btn">
-                            <span>تماس با ما</span>
+                            <span>همین الان مشاوره بگیرید</span>
                             <i class="las la-angle-left"></i>
                         </button>
                     </a>

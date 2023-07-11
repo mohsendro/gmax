@@ -71,12 +71,12 @@
                                     <div class="row">
                                         <div class="col-12 column">
                                             <div class="content">
-                                                <h2 class="title">کسب درآمد از یوتیوب</h2>
+                                                <h2 class="title">تبلیغ در یوتیوب</h2>
                                                 <p class="desc">
-                                                    با جیمکس در کمترین زمان، با بهترین نرخ، درآمدت رو نقد کن
+                                                    با جیمکس، در بزرگترین وب سایت دنیا دیده شوید
                                                 </p>
                                                 <!-- Component Button Start -->
-                                                <a href="https://gmaxads.com/monetization/" class="btn-default" target="_blank">
+                                                <a href="https://gmaxads.com/youtubeads/" class="btn-default" target="_blank">
                                                     <button type="button" class="btn">
                                                         <span>کلیک کنید</span>
                                                         <i class="las la-angle-left"></i>
@@ -98,12 +98,12 @@
                                     <div class="row">
                                         <div class="col-12 column">
                                             <div class="content">
-                                                <h2 class="title">تبلیغ در یوتیوب</h2>
+                                                <h2 class="title">کسب درآمد از یوتیوب</h2>
                                                 <p class="desc">
-                                                    با جیمکس، در بزرگترین وب سایت دنیا دیده شوید
+                                                    با جیمکس در کمترین زمان، با بهترین نرخ، درآمدت رو نقد کن
                                                 </p>
                                                 <!-- Component Button Start -->
-                                                <a href="https://gmaxads.com/youtubeads/" class="btn-default" target="_blank">
+                                                <a href="https://gmaxads.com/monetization/" class="btn-default" target="_blank">
                                                     <button type="button" class="btn">
                                                         <span>کلیک کنید</span>
                                                         <i class="las la-angle-left"></i>
@@ -118,7 +118,7 @@
                             <!-- Component Slider Card End -->
                         </div>
                     </div>
-                    <div class="slider-swiper-scrollbar"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
@@ -168,7 +168,7 @@
         </div>
         <div class="row">
             <div class="col-12 col-xl-2 d-none d-xl-block">
-                <div class="slogan">جیمکس ادز، پارتنر رسمی گوگل در ایران</div>
+                <a href="https://www.google.com/partners/agency?id=5847789388" target="_blank" class="slogan" rel="nofollow">جیمکس ادز، پارتنر رسمی گوگل در ایران</a>
             </div>
             <div class="col-12 col-xl-10">
                 <!-- Swiper -->
@@ -194,59 +194,8 @@
                         <div class="swiper-slide">
                             <!-- Component Info Box Card Start -->
                             <div class="info-box">
-                                <div class="info-img"><i class="las la-code"></i></div>
-                                <div class="info-title">طراحی وب سایت</div>
-                                <div class="info-desc">
-                                    طراحی وب سایت شما توسط تیم حرفه ای جیمکس و با دیزاین مورد نظر شما انجام خواهد شد.
-                                </div>
-                                <a href="https://gmaxads.com/website-design" class="info-more">
-                                    <button type="button" class="btn">
-                                        <span>مشاهده بیشتر</span>
-                                        <i class="las la-paperclip"></i>
-                                    </button>
-                                </a>
-                            </div>          
-                            <!-- Component Info Box Card End -->
-                        </div>
-                        <div class="swiper-slide">
-                            <!-- Component Info Box Card Start -->
-                            <div class="info-box">
-                                <div class="info-img"><i class="las la-graduation-cap"></i></div>
-                                <div class="info-title">تبلیغ در یوتیوب</div>
-                                <div class="info-desc">
-                                    در یوتیوب دیده شوید! امکان نمایش شما در یوتیوب، قبل از کانال هایی که دوست دارید وجود دارد!
-                                </div>
-                                <a href="https://gmaxads.com/youtubeads/" class="info-more">
-                                    <button type="button" class="btn">
-                                        <span>مشاهده بیشتر</span>
-                                        <i class="las la-paperclip"></i>
-                                    </button>
-                                </a>
-                            </div>
-                            <!-- Component Info Box Card End -->
-                        </div>
-                        <div class="swiper-slide">
-                            <!-- Component Info Box Card Start -->
-                            <div class="info-box">
-                                <div class="info-img"><i class="lab la-youtube"></i></div>
-                                <div class="info-title">استودیو یوتیوب</div>
-                                <div class="info-desc">
-                                    استفاده از بروزترین تجهیزات و فضای مناسب ضبط ویدئو یوتیوب و پادکست. امکان استفاده رایگان
-                                </div>
-                                <a href="https://gmaxads.com/gmaxads-studio/" class="info-more">
-                                    <button type="button" class="btn">
-                                        <span>مشاهده بیشتر</span>
-                                        <i class="las la-paperclip"></i>
-                                    </button>
-                                </a>
-                            </div>
-                            <!-- Component Info Box Card End -->
-                        </div>
-                        <div class="swiper-slide">
-                            <!-- Component Info Box Card Start -->
-                            <div class="info-box">
                                 <div class="info-img"><i class="lab la-google"></i></div>
-                                <div class="info-title">تبلیغ در گوگل</div>
+                                <div class="info-title">کسب درآمد از یوتیوب</div>
                                 <div class="info-desc">
                                     دسترسی پذیری به مشتری تنها یک راه ۱۰۰٪ مطمئن دارد. ما این سرویس را برای شما فراهم می کنیم
                                 </div>
@@ -257,6 +206,23 @@
                                     </button>
                                 </a>
                             </div>
+                            <!-- Component Info Box Card End -->
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- Component Info Box Card Start -->
+                            <div class="info-box">
+                                <div class="info-img"><i class="las la-code"></i></div>
+                                <div class="info-title">سئو</div>
+                                <div class="info-desc">
+                                    طراحی وب سایت شما توسط تیم حرفه ای جیمکس و با دیزاین مورد نظر شما انجام خواهد شد.
+                                </div>
+                                <a href="https://gmaxads.com/website-design" class="info-more">
+                                    <button type="button" class="btn">
+                                        <span>مشاهده بیشتر</span>
+                                        <i class="las la-paperclip"></i>
+                                    </button>
+                                </a>
+                            </div>          
                             <!-- Component Info Box Card End -->
                         </div>
                         <div class="swiper-slide">
@@ -323,10 +289,10 @@
                 <!-- Component CTA Start -->
                 <div class="content-cta">
                     <div class="title">
-                        <strong>اگر همچنان سوالی در ذهن دارید با کارشناسان ما تماس حاصل فرمایید</strong>
-                        <p>برای مشاوره و اطلاع از تعرفه ی خدمات تبلیغات گوگل با کارشناسان ما در تماس باشید</p>
+                        <strong>اگر سوالی در ذهن دارید با کارشناسان ما تماس حاصل فرمایید</strong>
+                        <p>برای مشاوره و اطلاع از تعرفه ی خدمات تبلیغات در گوگل با کارشناسان جیمکس تماس بگیرید</p>
                     </div>
-                    <a href="https://gmaxads.com/contact-us/" class="btn-cta" target="_blank">
+                    <a href="https://gmaxads.com/contact/" class="btn-cta" target="_blank">
                         <button type="button" class="btn">
                             <span>همین الان مشاوره بگیرید</span>
                             <i class="las la-angle-left"></i>
@@ -361,7 +327,7 @@
                         <div class="timeline__event__title">سفارش ورودی گوگل</div>
                         <div class="timeline__event__description">
                             <p>
-                                اولین اقدامی که باید برای تبلیغات در گوگل بعد از مشاوره تلفنی یا آنلاین با کارشناسان نوین مارکتینگ انجام دهید، سفارش کلیک گوگل و خرید اکانت است. در این مرحله شما با قبول قوانین و مقررات مربوط به تبلیغ در گوگل، سفارش خود را با همراهی کارشناسان ما ثبت می‌کنید.
+                                اولین اقدامی که باید برای تبلیغات در گوگل بعد از مشاوره تلفنی یا آنلاین با کارشناسان جیمکس انجام دهید، سفارش کلیک گوگل و خرید اکانت است. در این مرحله شما با قبول قوانین و مقررات مربوط به تبلیغ در گوگل، سفارش خود را با همراهی کارشناسان ما ثبت می‌کنید.
                             </p>
                         </div>
                     </div>
@@ -458,7 +424,7 @@
                         </div>
                         <div class="timeline__event__description">
                             <p>
-                                بعد از اجرای کمپین در گوگل ادز مرحله مدیریت و پشتیبانی ما آغاز می‌شود. مانیتورینگ روزانه کمپین شما برای کنترل بودجه، محل نمایش آگهی و همینطور بررسی لحظه‌ای اهداف تعریف شده در گوگل آنالیتیکس، از مهم‌ترین کارهایی است که در فاز مدیریت تبلیغات گوگل ادز توسط تیم نوین مارکتینگ انجام می‌شود.
+                                بعد از اجرای کمپین در گوگل ادز مرحله مدیریت و پشتیبانی ما آغاز می‌شود. مانیتورینگ روزانه کمپین شما برای کنترل بودجه، محل نمایش آگهی و همینطور بررسی لحظه‌ای اهداف تعریف شده در گوگل آنالیتیکس، از مهم‌ترین کارهایی است که در فاز مدیریت تبلیغات گوگل ادز توسط تیم جیمکس انجام می‌شود.
                             </p>
                         </div>
                     </div>
@@ -472,10 +438,10 @@
             <div class="row">
                 <div class="col-12 col-xl-7 order-2 order-xl-1 column">
                     <div class="title">
-                        <span>پایین ترین قیمت <strong>تبلیغ در گوگل</strong> با حذف واسطه ها</span>
+                        <span><strong>کانال یوتیوب</strong> شما سرمایه شماست</span>
                     </div>
                     <div class="desc">
-                        شرکت های دیگری که در زمینه تبلیغ در گوگل فعالیت می کنند به علت وجود واسطه های بسیار در رفع تحریم ها، امکان قیمت گذاری مناسبی برای تبلیغات در گوگل ندارند. GmaxAds با حذف این واسطه ها بهترین قیمت ممکن را برای شما فراهم کرده است
+                        شرکت جیمکس با بهره وری از ادسنس های متعدد در کشورهای اروپایی و مناطق آزاد بین المللی با بهترین نرخ و امن ترین ادسنس ها، نگرانی شما یوتیوبر ها را از بابت استرایگ، ریسک از دست دادن چنل تان را صفر میکند. همچنین هیچ یک از کانال های ما با استرایگ مواجه نشده است. چرا که کارشناسان ما، نظارت مستمر بر فعالیت چنل ها دارند.
                     </div>
                 </div>
                 <div class="col-12 col-xl-5 order-1 order-xl-2 column">

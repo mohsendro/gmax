@@ -46,7 +46,7 @@
                 </div>
                 <div class="col-12 col-xl-4 access-column column order-2 order-xl-3">
                     <div class="title">راه‌های ارتباطی</div>
-                    <div class="address">تهران، خیابان وزرا، خیابان هفتم، برج ماموت طبقه دوم</div>
+                    <div class="address">تهران، خیابان وزرا، خیابان هفتم، برج ماموت طبقه چهارم</div>
                     <ul class="line">
                         <li class="email"><a href="mailto:info@gmaxads.com"><i class="las la-at"></i>info@gmaxads.com</a></li>
                         <li class="phone"><a href="tel:02191095659"><i class="las la-phone"></i><span>021-<strong>91095659</strong></span></span></a></li>
