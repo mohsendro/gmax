@@ -3,7 +3,7 @@
     position: relative;
     font-family: var(--main-font);
     background-color: #FFFFFF;
-    border-bottom: 5px solid var(--main-color-default);
+    border-bottom: 5px solid var(--main-color);
     border-radius: 0;
     padding: 20px;
 }
@@ -61,7 +61,7 @@
 }
 
 .stellarnav li a {
-    color: #777;
+    color: var(--main-title);
     padding: 5px;
 }
 
@@ -156,7 +156,7 @@
 }
 
 .header .btn-search:hover {
-    background-color: var(--hover-color-default);
+    background-color: var(--main-color-hover);
 }
 
 .header .btn-call {
@@ -181,7 +181,7 @@
 }
 
 .header .btn-call:hover {
-    background-color: var(--hover-color-default);
+    background-color: var(--main-color-hover);
 }
 
 .header .btn-login {
@@ -196,7 +196,7 @@
     gap: 15px;
     font-size: 15px;
     color: var(--title-color);
-    background-color: var(--main-color-default);
+    background-color: var(--main-color);
     border-radius: 4px;
     padding: 10px;
 }
@@ -206,7 +206,7 @@
 }
 
 .header .btn-login:hover {
-    background-color: var(--hover-color-default);
+    background-color: var(--main-color-hover);
 }
 
 #searchOffcanvasTop {
@@ -256,7 +256,7 @@
     gap: 15px;
     font-size: 15px;
     color: var(--title-color);
-    background-color: var(--main-color-default);
+    background-color: var(--main-color);
     border-radius: 4px;
     padding: 10px;
 }
@@ -266,7 +266,7 @@
 }
 
 #searchOffcanvasTop .offcanvas-body button:hover {
-    background-color: var(--hover-color-default);
+    background-color: var(--main-color-hover);
 }
 
 
@@ -275,7 +275,7 @@
     position: relative;
     font-family: var(--main-font);
     background-color: #323232;
-    border-top: 5px solid var(--main-color-default);
+    border-top: 5px solid var(--main-color);
     border-radius: 0;
     padding: 50px 20px 0;
     margin-top: 50px;
@@ -328,7 +328,7 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 25px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: justify;
 }
 
@@ -375,7 +375,7 @@
 }
 
 .footer .links ul li a:hover {
-    color: var(--hover-color-default)
+    color: var(--main-color-hover)
 }
 
 .footer .address {
@@ -418,7 +418,7 @@
 }
 
 .footer .line li a:hover {
-    color: var(--hover-color-default);
+    color: var(--main-color-hover);
 }
 
 .footer .line li a i {
@@ -450,7 +450,7 @@
 }
 
 .footer .socials li a:hover {
-    color: var(--hover-color-default);
+    color: var(--main-color-hover);
 }
 
 .footer .socials li a i {
@@ -501,7 +501,7 @@
     top: 50%;
     right: 30px;
     transform: translate(0px, -5px);
-    background-color: var(--main-color-default);
+    background-color: var(--main-color);
     border-radius: 50%;
 }
 
@@ -526,7 +526,7 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 25px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: right;
     border: transparent;
     border-bottom: 1px solid rgb(255 255 255 / 35%);
@@ -536,7 +536,7 @@
 }
 
 .footer .newsletter input:focus {
-    border-bottom: 1px solid var(--hover-color-default);
+    border-bottom: 1px solid var(--main-color-hover);
 }
 
 .footer .newsletter button {
@@ -562,7 +562,7 @@
 }
 
 .footer .newsletter button:hover {
-    color: var(--hover-color-default);
+    color: var(--main-color-hover);
 }
 
 .zone button {
@@ -600,7 +600,7 @@
 }
 
 .zone .bodymovin path {
-    fill: var(--main-color-default);
+    fill: var(--main-color);
 }
 
 .footer .copyright {
@@ -609,7 +609,7 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 25px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: center;
     border-top: 1px solid #f4f4f41c;
     padding: 20px 10px;

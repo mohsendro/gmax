@@ -58,7 +58,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-    -webkit-text-fill-color: var(--description-color);
+    -webkit-text-fill-color: var(--desc-color);
     transition: background-color 9999s ease-in-out 0s;
 }
 
@@ -334,13 +334,19 @@ section .row-fluid {
 
 /* Kit Styles */
 :root {
-    --main-color-default: #fed813;
-    --main-color-second: #00bfda;
-    --hover-color-default: #ffb113;
-    --hover-color-second: #5181c4;
+    /* --main-color: #fed813;
+    --second-color: #00bfda;
+    --main-color-hover: #ffb113;
+    --second-color-hover: #5181c4; */
+
+    --main-color: #04B4D6;
+    --second-color: #72B6D4;
+    --main-color-hover: #4987C5;
+    --second-color-hover: #DAEBF4;
+
     --title-color: #000000;
-    --description-color: #949494;
-    --default-font: 'IranSans';
+    --desc-color: #949494;
+    --main-font: 'IranSans';
     --second-font: 'IranSansDN';
 }
 
@@ -351,7 +357,7 @@ section .row-fluid {
 #wpadminbar .ab-label,
 span.display-name,
 a.ab-item {
-    font-family: var(--default-font,'IranSans');
+    font-family: var(--main-font,'IranSans');
 }
 
 * {
@@ -367,7 +373,7 @@ html {
 }
 
 body {
-    font-family: var(--default-font);
+    font-family: var(--main-font);
     font-size: 15px;
     font-weight: 400;
     color: var(--title-color, #000000);
@@ -616,7 +622,7 @@ a:hover {
     display: block;
     font-size: 40px;
     font-weight: 900;
-    font-family: var(--default-font);
+    font-family: var(--main-font);
     text-align: center;
     color: var(--title-color);
     z-index: 2;
@@ -627,7 +633,7 @@ a:hover {
     font-weight: 900;
     font-family: var(--second-font);
     text-align: center;
-    color: var(--description-color);
+    color: var(--desc-color);
     opacity: 0.2;
     margin-top: -10px;
 }
@@ -637,7 +643,7 @@ a:hover {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: center;
 }
 
@@ -656,7 +662,7 @@ a:hover {
     font-weight: 900;
     line-height: 50px;
     text-align: center;
-    color: var(--main-color);
+    color: var(--main-title);
     text-shadow: 5px 5px 10px #00000024;
     padding: 10px;
 }
@@ -703,7 +709,7 @@ a:hover {
     display: block;
     font-size: 30px;
     font-weight: 700;
-    font-family: var(--default-font);
+    font-family: var(--main-font);
     text-align: center;
     color: var(--title-color);
     z-index: 2;
@@ -736,7 +742,7 @@ a:hover {
     content: "";
     width: 2px;
     height: calc(100% + 100px);
-    background: var(--main-color-default);
+    background: var(--main-color);
     position: absolute;
     top: 0%;
     left: 50%;
@@ -751,7 +757,7 @@ a:hover {
     content: "";
     width: 100%;
     height: 2px;
-    background: var(--main-color-default);
+    background: var(--main-color);
     position: absolute;
     right: 0;
     z-index: -1;
@@ -768,7 +774,7 @@ a:hover {
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
-    color: var(--main-color);
+    color: var(--main-title);
     text-align: right;
     margin-bottom: 15px;
 }
@@ -810,7 +816,7 @@ a:hover {
     align-self: center;
     position: relative;
     font-size: 32px;
-    background: var(--main-color-default);
+    background: var(--main-color);
     border-radius: 100%;
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
     padding: 40px;
@@ -825,7 +831,7 @@ a:hover {
     content: "";
     width: 2px;
     height: calc(100% + 100px);
-    background: var(--main-color-default);
+    background: var(--main-color);
     position: absolute;
     top: 0%;
     z-index: -1;
@@ -839,7 +845,7 @@ a:hover {
     content: "";
     width: 100%;
     height: 2px;
-    background: var(--main-color-default);;
+    background: var(--main-color);;
     position: absolute;
     left: 0%;
     z-index: -1;
@@ -855,7 +861,7 @@ a:hover {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: justify;
 }
 
@@ -975,7 +981,7 @@ a:hover {
     display: block;
     font-size: 20px;
     font-weight: 900;
-    font-family: var(--default-font);
+    font-family: var(--main-font);
     text-align: right;
     color: var(--title-color);
     margin-bottom: 50px;
@@ -986,7 +992,7 @@ a:hover {
 .banner .title strong {
     font-family: var(--second-font);
     font-size: 25px;
-    color: var(--main-color-default);
+    color: var(--main-color);
 }
 
 .banner .desc {
@@ -996,6 +1002,7 @@ a:hover {
     font-weight: 400;
     line-height: 30px;
     text-align: justify;
+    color: var(--desc-color);
 }
 
 .banner img {
@@ -1078,7 +1085,7 @@ a:hover {
     font-size: 20px;
     font-weight: 400;
     line-height: 35px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: justify;
     margin: 0;
 }
@@ -1089,7 +1096,7 @@ a:hover {
     font-size: 16px;
     font-weight: 300;
     line-height: 35px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: justify;
     margin: 0;
 }
@@ -1106,7 +1113,7 @@ a:hover {
     top: 50%;
     right: -30px;
     transform: translate(0px, -5px);
-    background-color: var(--main-color-default);
+    background-color: var(--main-color);
     border-radius: 50%;
 }
 
@@ -1156,7 +1163,7 @@ a:hover {
     display: block;
     font-size: 20px;
     font-weight: 900;
-    font-family: var(--default-font);
+    font-family: var(--main-font);
     text-align: right;
     color: var(--title-color);
     /* margin-bottom: 50px; */
@@ -1219,7 +1226,7 @@ a:hover {
     display: block;
     font-size: 20px;
     font-weight: 900;
-    font-family: var(--default-font);
+    font-family: var(--main-font);
     text-align: right;
     color: var(--title-color);
     /* margin-bottom: 50px; */
@@ -1316,7 +1323,7 @@ a:hover {
 }
 
 .pricing .plan.popular {
-    border: 2px solid var(--main-color-default);
+    border: 2px solid var(--main-color);
     position: relative;
     transform: scale(1.08);
 }
@@ -1327,7 +1334,7 @@ a:hover {
     left: 50%;
     font-size: 16px;
     color: var(--title-color);
-    background-color: var(--main-color-default);
+    background-color: var(--main-color);
     border-radius: 5px;
     transform: translateX(-50%);
     padding: 10px 25px;
@@ -1346,7 +1353,7 @@ a:hover {
     display: block;
     font-size: 14px;
     line-height: 20px;
-    color: var(--description-color);
+    color: var(--desc-color);
     margin-bottom: 30px;
 }
 
@@ -1362,7 +1369,7 @@ a:hover {
 .pricing .plan .price .format {
     font-size: 16px;
     font-weight: 300;
-    color: var(--description-color);
+    color: var(--desc-color);
     margin-right: 10px;
 }
 
@@ -1372,7 +1379,7 @@ a:hover {
     font-size: 16px;
     font-weight: 300;
     text-align: center;
-    color: var(--description-color);
+    color: var(--desc-color);
 }
 
 .pricing .plan ul.features {
@@ -1404,7 +1411,7 @@ a:hover {
 }
 
 .pricing .plan ul.features li .la-exclamation {
-    color: #fed813;
+    color: var(--main-color);
 }
 
 .pricing .plan ul.features li .check {
@@ -1414,7 +1421,7 @@ a:hover {
 }
 
 .pricing .plan ul.features li .uncheck {
-    color: var(--description-color);
+    color: var(--desc-color);
     text-decoration: line-through;
 }
 
@@ -1422,7 +1429,7 @@ a:hover {
     width: 100%;
     font-size: 16px;
     color: var(--title-color);
-    background-color: var(--main-color-default);
+    background-color: var(--main-color);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -1444,7 +1451,7 @@ a:hover {
     display: block;
     font-size: 20px;
     font-weight: 900;
-    font-family: var(--default-font);
+    font-family: var(--main-font);
     text-align: center;
     color: var(--title-color);
     margin-bottom: 50px;
@@ -1483,8 +1490,8 @@ a:hover {
 
 .advertising .nav-link.active {
     /* color: var(--title-color); */
-    /* background-color: var(--main-color-default); */
-    background-color: var(--main-color-second);
+    /* background-color: var(--main-color); */
+    background-color: var(--second-color);
 }
 
 .advertising .tab-content {
@@ -1550,7 +1557,7 @@ a:hover {
     display: block;
     font-size: 20px;
     font-weight: 900;
-    font-family: var(--default-font);
+    font-family: var(--main-font);
     text-align: right;
     color: var(--title-color);
     /* margin-bottom: 50px; */
@@ -1585,7 +1592,7 @@ a:hover {
     font-size: 16px;
     font-weight: 300;
     line-height: 35px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: justify;
     margin-top: 30px;
 }
@@ -1602,7 +1609,7 @@ a:hover {
     top: 50%;
     right: -30px;
     transform: translate(0px, -5px);
-    background-color: var(--main-color-default);
+    background-color: var(--main-color);
     border-radius: 50%;
 }
 
@@ -1656,7 +1663,7 @@ a:hover {
     display: block;
     font-size: 20px;
     font-weight: 900;
-    font-family: var(--default-font);
+    font-family: var(--main-font);
     text-align: right;
     color: var(--title-color);
     margin-bottom: 20px;
@@ -1703,7 +1710,7 @@ a:hover {
 }
 
 .contact-info .line li a:hover {
-    color: var(--hover-color-default);
+    color: var(--main-color-hover);
 }
 
 .contact-info .line li a i {
@@ -1735,7 +1742,7 @@ a:hover {
 }
 
 .contact-info .socials li a:hover {
-    color: var(--hover-color-default);
+    color: var(--main-color-hover);
 }
 
 .contact-info .socials li a i {
@@ -1825,7 +1832,7 @@ a:hover {
 }
 
 .about-description .title strong {
-    color: var(--main-color-default);
+    color: var(--main-color);
 }
 
 .about-description .desc {
@@ -1834,7 +1841,7 @@ a:hover {
     font-size: 20px;
     font-weight: 400;
     line-height: 35px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: justify;
     margin: 0;
 }
@@ -1845,7 +1852,7 @@ a:hover {
     font-size: 16px;
     font-weight: 300;
     line-height: 35px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: justify;
     margin: 0;
 }
@@ -1862,7 +1869,7 @@ a:hover {
     top: 50%;
     right: -30px;
     transform: translate(0px, -5px);
-    background-color: var(--main-color-default);
+    background-color: var(--main-color);
     border-radius: 50%;
 }
 
@@ -1933,7 +1940,7 @@ a:hover {
 }
 
 .our-services .title strong {
-    color: var(--main-color-default);
+    color: var(--main-color);
 }
 
 .our-services .desc {
@@ -1942,7 +1949,7 @@ a:hover {
     font-size: 20px;
     font-weight: 400;
     line-height: 35px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: justify;
     margin: 0;
 }
@@ -1953,7 +1960,7 @@ a:hover {
     font-size: 16px;
     font-weight: 300;
     line-height: 35px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: justify;
     margin: 0;
 }
@@ -1970,7 +1977,7 @@ a:hover {
     top: 50%;
     right: -30px;
     transform: translate(0px, -5px);
-    background-color: var(--main-color-default);
+    background-color: var(--main-color);
     border-radius: 50%;
 }
 
@@ -2011,7 +2018,7 @@ a:hover {
     display: block;
     font-size: 20px;
     font-weight: 900;
-    font-family: var(--default-font);
+    font-family: var(--main-font);
     text-align: right;
     color: var(--title-color);
     /* margin-bottom: 50px; */
@@ -2079,7 +2086,7 @@ a:hover {
     display: block;
     font-size: 20px;
     font-weight: 900;
-    font-family: var(--default-font);
+    font-family: var(--main-font);
     text-align: right;
     color: var(--title-color);
     /* margin-bottom: 50px; */
@@ -2147,7 +2154,7 @@ a:hover {
     display: block;
     font-size: 20px;
     font-weight: 900;
-    font-family: var(--default-font);
+    font-family: var(--main-font);
     text-align: right;
     color: var(--title-color);
     /* margin-bottom: 50px; */
@@ -2226,7 +2233,7 @@ a:hover {
     display: block;
     font-size: 30px;
     font-weight: 700;
-    font-family: var(--default-font);
+    font-family: var(--main-font);
     text-align: center;
     color: var(--title-color);
     z-index: 2;
@@ -2262,7 +2269,7 @@ a:hover {
     font-size: 14px;
     font-weight: 400;
     line-height: 25px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: justify;
     background-color: rgba(196,196,196,.2);
     border: 1px solid rgba(196,196,196,.2);
@@ -2306,7 +2313,7 @@ a:hover {
 .blog-single .top-content .title {
     width: 100%;
     display: block;
-    font-family: var(--default-font);
+    font-family: var(--main-font);
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
@@ -2321,7 +2328,7 @@ a:hover {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: justify;
     margin-bottom: 20px;
 }
@@ -2344,7 +2351,7 @@ a:hover {
     font-size: 13px;
     font-weight: 300;
     line-height: 30px;
-    color: var(--description-color);
+    color: var(--desc-color);
     text-align: justify;
 }
 
@@ -2383,7 +2390,7 @@ a:hover {
 
 .blog-single .top-content .icon i {
     font-size: 30px;
-    color: var(--description-color);
+    color: var(--desc-color);
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -2392,7 +2399,7 @@ a:hover {
 }
 
 .blog-single .top-content .icon i:hover {
-    color: var(--hover-color-default);
+    color: var(--main-color-hover);
 }
 
 .blog-single .top-content img {
@@ -2423,7 +2430,7 @@ a:hover {
     font-size: 14px;
     font-weight: 300;
     line-height: 30px;
-    color: var(--description-color);
+    color: var(--desc-color);
     padding-right: 70px;
 }
 
@@ -2438,7 +2445,7 @@ a:hover {
     font-size: 14px;
     font-weight: 300;
     line-height: 30px;
-    color: var(--description-color);
+    color: var(--desc-color);
 }
 
 .blog-single .buttom-content .category a:hover {
@@ -2452,7 +2459,7 @@ a:hover {
     font-size: 14px;
     font-weight: 300;
     line-height: 30px;
-    color: var(--description-color);
+    color: var(--desc-color);
     padding-right: 55px;
     margin-top: 20px;
 }
@@ -2470,7 +2477,7 @@ a:hover {
     font-size: 14px;
     font-weight: 300;
     line-height: 30px;
-    color: var(--description-color);
+    color: var(--desc-color);
     background-color: #f7f7f7;
     padding: 10px 20px;
     margin-left: 10px;

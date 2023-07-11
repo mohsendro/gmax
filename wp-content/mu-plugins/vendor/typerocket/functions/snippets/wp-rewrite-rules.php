@@ -7,7 +7,7 @@ function wp_rewrite_customize() {
     $GLOBALS['wp_rewrite']->search_base = 'search';
     
 }
-add_action( 'init', 'wp_rewrite_customize' );
+// add_action( 'init', 'wp_rewrite_customize' );
 
 
 function wpb_change_search_url() {
@@ -20,4 +20,4 @@ function wpb_change_search_url() {
     }   
 
 }
-add_action( 'template_redirect', 'wpb_change_search_url' );
+// add_action( 'template_redirect', 'wpb_change_search_url' );

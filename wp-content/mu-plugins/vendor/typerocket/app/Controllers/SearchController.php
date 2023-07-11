@@ -45,7 +45,7 @@ class SearchController extends WPPostController
         ];
         $posts = $post->findAll()->with('meta')->where($where_search)->orderBy('id', 'DESC');
         $posts_data = $posts; 
-        $posts = $posts->get(); 
+        $posts = $posts->get();
         
         if( $posts != null || $posts > 0 ) {
 
