@@ -49,7 +49,7 @@
                 <!-- Component Boxing Card Start -->
                 <div class="boxing aos-init aos-animate" data-aos="fade-in" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box1.jpg" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box12.png" alt="">
                     </div>
                     <div class="title">مارکتینگ</div>
                     <div class="desc">
@@ -62,7 +62,7 @@
                 <!-- Component Boxing Card Start -->
                 <div class="boxing aos-init aos-animate" data-aos="fade-in" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box1.jpg" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box13.png" alt="">
                     </div>
                     <div class="title">تبلیغ در گوگل</div>
                     <div class="desc">
@@ -75,7 +75,7 @@
                 <!-- Component Boxing Card Start -->
                 <div class="boxing aos-init aos-animate" data-aos="fade-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box1.jpg" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box14.png" alt="">
                     </div>
                     <div class="title">تبلیغ در یوتیوب</div>
                     <div class="desc">
@@ -88,7 +88,7 @@
                 <!-- Component Boxing Card Start -->
                 <div class="boxing aos-init aos-animate" data-aos="fade-in" data-aos-duration="500" data-aos-delay="900" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box1.jpg" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box15.png" alt="">
                     </div>
                     <div class="title">کسب درآمد از یوتیوب</div>
                     <div class="desc">

@@ -17,6 +17,8 @@
     ];
     $option = $option->findAll()->where($where_option)->select('option_value')->get()->toArray();
     $option = $option[0]['option_value'];
+
+    $meta = get_post_meta( $queried_id, 'pageInfo', true );
 ?>
 
 <main id="main" class="main studio">
@@ -57,7 +59,7 @@
                 <!-- Component Box Card Start -->
                 <div class="box" data-aos="fade-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box1.jpg" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box19.png" alt="">
                     </div>
                     <div class="title">شناخت دقیق علایق ویورها</div>
                     <div class="desc">
@@ -70,7 +72,7 @@
                 <!-- Component Box Card Start -->
                 <div class="box" data-aos="fade-in" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box2.jpg" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box20.png" alt="">
                     </div>
                     <div class="title">هزینه مقرون به صرفه</div>
                     <div class="desc">
@@ -83,7 +85,7 @@
                 <!-- Component Box Card Start -->
                 <div class="box" data-aos="fade-in" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box3.jpg" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box21.png" alt="">
                     </div>
                     <div class="title">رشد کانال شما</div>
                     <div class="desc">
@@ -95,75 +97,54 @@
         </div>
     </section>
 
-    <section id="pricing" class="container pricing">
-        <div class="row">
-            <div class="col-12 column">
-                <div class="head dolar-head">تعرفه استودیو یوتیوب جیمکس</div>
-            </div>
+    <?php if( $meta['tables'] ): ?>
+        <section id="pricing" class="container pricing">
+            <div class="row">
+                <?php $i = 0; ?>
+                <?php foreach( $meta['tables'] as $tables ): ?>
+                    <div class="col-12 column">
+                        <div class="head dolar-head <?php if( $i != 0 ) echo 'dirham-head'; ?>"><?php echo $tables['title']; ?></div>
+                    </div>
 
-            <div class="col-12 col-xl-10 mx-auto column">
-                <div class="pricing-content dolar-table">
-                    <div class="plan" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
-                        <div class="title">۲ ساعت</div>
-                        <p class="offer"></p>
-                        <div class="price">1,400,000<span class="format">تومان</span><span class="postfix">هر ساعت</span></div>
-                        <ul class="features">
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">تجهیزات فیلمبرداری</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">تجهیزات صدابرداری</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">نورپردازی حرفه ای</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">آفر ادیت فیلم خروجی</span>
-                            </li>
-                            <li>
-                                <i class="las la-exclamation"></i>
-                                <span class="check">در صورت نیاز به اپراتور استودیو، یک میلیون تومان به مبلغ فوق اضافه خواهد شد</span>
-                            </li>
-                        </ul>
-                        <a href="https://gmaxads.com/contact-us/" target="_blank" class="link">تماس با ما</a>
-                    </div>
-                    <div class="plan popular" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
-                        <span class="comment">پیشنهاد ما</span>
-                        <div class="title">7 ساعت</div>
-                        <p class="offer"></p>
-                        <div class="price">3,000,000<span class="format">تومان</span><span class="postfix">هر ساعت</span></div>
-                        <ul class="features">
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">تجهیزات فیلمبرداری</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">تجهیزات صدابرداری</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">نورپردازی حرفه ای</span>
-                            </li>
-                            <li>
-                                <i class="las la-check"></i>
-                                <span class="check">آفر ادیت فیلم خروجی</span>
-                            </li>
-                            <li>
-                                <i class="las la-exclamation"></i>
-                                <span class="check">در صورت نیاز به اپراتور استودیو، ۸۰۰ هزار تومان به مبلغ فوق اضافه خواهد شد</span>
-                            </li>
-                        </ul>
-                        <a href="https://gmaxads.com/contact-us/" target="_blank" class="link">تماس با ما</a>
-                    </div>
-                </div>
+                    <?php if( $tables['plans'] ): ?>
+                        <div class="col-12 col-xl-10 mx-auto column">
+                            <div class="pricing-content dolar-table">
+                                <?php foreach( $tables['plans'] as $plan ): ?>
+                                    <div class="plan <?php if( $plan['special'] ) echo 'popular'; ?>" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
+                                        <?php if( $plan['special'] ): ?>
+                                            <span class="comment">پیشنهاد ما</span>
+                                        <?php endif; ?>
+                                        <div class="title"><?php echo $plan['title']; ?></div>
+                                        <p class="offer"><?php echo $plan['subtitle']; ?></p>
+                                        <div class="price"><?php echo number_format($plan['price']); ?><span class="format">تومان</span><span class="postfix">هر ساعت</span></div>
+                                        <?php if( $plan['desc'] ): ?>
+                                            <ul class="features">
+                                                <?php foreach( $plan['desc'] as $des ): ?>
+                                                    <?php if( $des['type'] ): ?>
+                                                        <li>
+                                                            <i class="las la-check"></i>
+                                                            <span class="check"><?php echo $des['feacher']; ?></span>
+                                                        </li>
+                                                    <?php else: ?>
+                                                        <li>
+                                                            <i class="las la-exclamation"></i>
+                                                            <span class="check"><?php echo $des['feacher']; ?></span>
+                                                        </li>
+                                                    <?php endif ?>
+                                                <?php endforeach; ?>
+                                            </ul>
+                                        <?php endif; ?>
+                                        <a href="<?php echo $plan['link']['url']; ?>" target="_blank" class="link">تماس با ما</a>
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                    <?php endif; ?>
+                    <?php $i++; ?>
+                <?php endforeach; ?>
             </div>
-        </div>
-    </section>
+        </section>
+    <?php endif; ?>
     
     <section id="studio-info" class="container-fluid studio-info">
         <div class="container">

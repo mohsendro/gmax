@@ -57,7 +57,7 @@
                 <!-- Component Box Card Start -->
                 <div class="box" data-aos="fade-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box1.jpg" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box16.png" alt="">
                     </div>
                     <div class="title">ثبت نام</div>
                     <div class="desc">
@@ -70,7 +70,7 @@
                 <!-- Component Box Card Start -->
                 <div class="box" data-aos="fade-in" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box2.jpg" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box13.png" alt="">
                     </div>
                     <div class="title">سفارش سرویس تبلیغ در گوگل</div>
                     <div class="desc">
@@ -83,7 +83,7 @@
                 <!-- Component Box Card Start -->
                 <div class="box" data-aos="fade-in" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box3.jpg" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box22.png" alt="">
                     </div>
                     <div class="title">فعال سازی سرویس محافظت</div>
                     <div class="desc">

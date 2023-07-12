@@ -597,7 +597,7 @@
 
 .box .img img {
     width: auto;
-    max-width: 200px;
+    max-width: 100px;
     height: auto;
     mix-blend-mode: multiply;
 }
@@ -655,7 +655,7 @@
 
 .boxing .img img {
     width: auto;
-    max-width: 200px;
+    max-width: 100px;
     height: auto;
     mix-blend-mode: multiply;
 }
@@ -709,6 +709,7 @@
 
 .feacher .icon {
     width: 100%;
+    max-width: 75px;
     height: auto;
     position: relative;
     text-align: center;

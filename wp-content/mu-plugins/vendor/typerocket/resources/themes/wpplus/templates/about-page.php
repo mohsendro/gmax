@@ -56,7 +56,7 @@
                 <!-- Component Boxing Card Start -->
                 <div class="boxing aos-init aos-animate" data-aos="fade-in" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box1.jpg" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box23.png" alt="">
                     </div>
                     <div class="title">گزارش های دقیق</div>
                     <div class="desc">
@@ -69,7 +69,7 @@
                 <!-- Component Boxing Card Start -->
                 <div class="boxing aos-init aos-animate" data-aos="fade-in" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box1.jpg" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box20.png" alt="">
                     </div>
                     <div class="title">هزینه های مقرون به صرفه</div>
                     <div class="desc">
@@ -82,7 +82,7 @@
                 <!-- Component Boxing Card Start -->
                 <div class="boxing aos-init aos-animate" data-aos="fade-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box1.jpg" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box18.png" alt="">
                     </div>
                     <div class="title">مشاوره تخصصی مارکتینگ و فنی سایت</div>
                     <div class="desc">
@@ -95,7 +95,7 @@
                 <!-- Component Boxing Card Start -->
                 <div class="boxing aos-init aos-animate" data-aos="fade-in" data-aos-duration="500" data-aos-delay="900" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box1.jpg" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/box19.png" alt="">
                     </div>
                     <div class="title">آنالیز دیتا و رصد رقبا</div>
                     <div class="desc">

@@ -33,61 +33,6 @@ if( class_exists( 'CSF' ) ) {
                         'title' => 'عنوان جدول',
                     ),
 
-
-
-
-                    // array(
-                    //     'id'     => 'opt-group-6',
-                    //     'type'   => 'group',
-                    //     'title'  => 'Group with Repeater Field',
-                    //     'fields' => array(
-                    //       array(
-                    //         'id'    => 'opt-text',
-                    //         'type'  => 'text',
-                    //         'title' => 'Text',
-                    //       ),
-                    //       array(
-                    //         'id'     => 'opt-group-6-repeater',
-                    //         'type'   => 'repeater',
-                    //         'title'  => 'Repeater',
-                    //         'fields' => array(
-                    //           array(
-                    //             'id'    => 'opt-text',
-                    //             'type'  => 'text',
-                    //             'title' => 'Text'
-                    //           ),
-                    //         ),
-                    //       ),
-                    //       array(
-                    //         'id'    => 'opt-switcher',
-                    //         'type'  => 'switcher',
-                    //         'title' => 'Switcher',
-                    //       ),
-                    //       array(
-                    //         'id'    => 'opt-textarea',
-                    //         'type'  => 'textarea',
-                    //         'title' => 'Textarea',
-                    //       ),
-                    //     ),
-                    //     'default' => array(
-                    //       array(
-                    //         'opt-text' => 'Some text 1',
-                    //         'opt-group-6-repeater' => array(
-                    //           array(
-                    //             'opt-text' => 'Some text 1',
-                    //           ),
-                    //             array(
-                    //             'opt-text' => 'Some text 2',
-                    //           ),
-                    //         )
-                    //       ),
-                    //     )
-                    // ),
-
-
-
-
-
                     array(
                         'id'    => 'plans',
                         'type'  => 'group',
@@ -160,16 +105,6 @@ if( class_exists( 'CSF' ) ) {
                     ),
             
                 ),
-                // 'default'   => array(
-                //     array(
-                //         'opt-text-1' => 'Text 1 default value',
-                //         'opt-text-2' => 'Text 2 default value',
-                //     ),
-                //     array(
-                //         'opt-text-1' => 'Text 1 default value',
-                //         'opt-text-2' => 'Text 2 default value',
-                //     )
-                // )
             ),
 
         )
