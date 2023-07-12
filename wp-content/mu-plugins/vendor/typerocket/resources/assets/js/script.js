@@ -170,6 +170,64 @@ var swiper = new Swiper(".blogSwiper", {
     },
 });
 
+var swiper = new Swiper(".ourteamSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 15,
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    mousewheel: {
+        forceToAxis: true,
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+        576: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+        },
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+        },
+        1200: {
+            slidesPerView: 4,
+            spaceBetween: 15,
+        },
+        1400: {
+            slidesPerView: 4,
+            spaceBetween: 15,
+        },
+    },
+});
+
+// lightGallery Scripts
+lightGallery(document.querySelector("#our-team .gallery"), {
+    plugins: [
+        lgZoom,
+        lgAutoplay,
+        // lgComment,
+        lgFullscreen,
+        // lgHash,
+        lgPager,
+        lgRotate,
+        // lgShare,
+        lgThumbnail,
+        lgVideo,
+        // lgMediumZoom,
+    ],
+});
+
 
 // newsletter animation script
 const bodymovinDiv = document.querySelector('.bodymovin');

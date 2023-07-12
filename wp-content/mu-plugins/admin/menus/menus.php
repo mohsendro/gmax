@@ -25,6 +25,7 @@ if( ! class_exists( 'Menus' ) ) {
              'edit.php',
              'edit-comments.php',
              'menu_newsletter',
+             'wpcf7',
              'upload.php',
              'separator2',
              'themes.php',

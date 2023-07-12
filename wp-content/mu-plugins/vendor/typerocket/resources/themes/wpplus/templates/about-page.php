@@ -107,6 +107,45 @@
         </div>
     </section>
 
+    <section id="our-team" class="container our-team">
+        <div class="row heading-row">
+            <div class="col-12 column">
+                <div class="head">تیم ما</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 column">
+                <!-- Swiper -->
+                <div class="swiper ourteamSwiper">
+                    <div class="swiper-wrapper gallery">
+                        <a class="swiper-slide" href="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00165.webp">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00165.webp" />
+                        </a>
+                        <a class="swiper-slide" href="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00186.webp">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00186.webp" />
+                        </a>
+                        <a class="swiper-slide" href="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00213.webp">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00213.webp" />
+                        </a>
+                        <a class="swiper-slide" href="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00220.webp">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00220.webp" />
+                        </a>
+                        <a class="swiper-slide" href="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00237.webp">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00237.webp" />
+                        </a>                        
+                        <a class="swiper-slide" href="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00250.webp">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00250.webp" />
+                        </a>
+                        <a class="swiper-slide" href="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00278.webp">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00278.webp" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="cta" class="container cta">
         <div class="row">
             <div class="col-12 column">
