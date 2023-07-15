@@ -20,9 +20,9 @@
         <p class="desc line-clamp-3">
             <?php 
                 if( $related_post->post_excerpt ) {
-                    echo substr( $related_post->post_excerpt, 0, 250);
+                    echo substr( sanitize_textarea_field($related_post->post_excerpt), 0, 250);
                 } else {
-                    echo substr( $related_post->post_content, 0, 250);
+                    echo substr( sanitize_textarea_field($related_post->post_content), 0, 250);
                 }
             ?>
         </p>

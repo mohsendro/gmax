@@ -13,7 +13,8 @@
     ],
     "require": {
         "aws/aws-sdk-php": "*",
-        "wpackagist-plugin/contact-form-7" : "dev-trunk"
+        "wpackagist-plugin/contact-form-7" : "dev-trunk",
+        "wpackagist-plugin/flamingo":"dev-trunk"
     },
     "autoload": {
         "psr-4": {

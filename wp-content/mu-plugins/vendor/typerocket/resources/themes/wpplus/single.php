@@ -114,7 +114,7 @@
                             <?php foreach( $related_posts as $related_post ): ?>
                                 <div class="swiper-slide">
                                     <!-- Component Blog Card Start -->
-                                    <?php require TYPEROCKET_DIR_PATH . '/resources/views/components/related-card.php'; ?>
+                                    <?php require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/related-card.php'; ?>
                                     <!-- Component Blog Card End -->
                                 </div>
                             <?php endforeach; ?>

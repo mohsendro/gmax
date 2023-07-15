@@ -85,6 +85,7 @@
                 </div>
             </div>
         </div>
+		<a class="call-us" href="https://api.whatsapp.com/send/?phone=989361969361&text=%D8%B3%D9%84%D8%A7%D9%85&type=phone_number&app_absent=0" target="_blank"><i class="lab la-whatsapp"></i></a>
     </section>
     <!-- Footer End -->   
 

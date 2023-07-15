@@ -378,7 +378,7 @@ body {
     font-weight: 400;
     color: var(--title-color, #000000);
     background-color: #FFFFFF;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .none-overflow {
@@ -387,7 +387,7 @@ body {
 
 .overflow {
     /* overflow-y: scroll; */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 a,
@@ -2471,6 +2471,11 @@ a:hover {
     line-height: 30px;
     text-align: justify;
     color: var(--title-color);
+}
+
+.blog-single .main-content .content img {
+	width: 100%;
+	height: auto;
 }
 
 .blog-single .buttom-content .category {

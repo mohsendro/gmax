@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77c4751858df8ce54ddfb3d82c31247f",
+    "content-hash": "e5286b16f72d6a9f44ea82f7a6110a79",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.275.2",
+            "version": "3.275.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "4506d631caf6097fd73009d57707e61b95efe92c"
+                "reference": "54dcef3349c81b46c0f5f6e54b5f9bfb5db19903"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4506d631caf6097fd73009d57707e61b95efe92c",
-                "reference": "4506d631caf6097fd73009d57707e61b95efe92c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/54dcef3349c81b46c0f5f6e54b5f9bfb5db19903",
+                "reference": "54dcef3349c81b46c0f5f6e54b5f9bfb5db19903",
                 "shasum": ""
             },
             "require": {
@@ -151,9 +151,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.275.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.275.7"
             },
-            "time": "2023-07-03T18:27:31+00:00"
+            "time": "2023-07-13T18:21:04+00:00"
         },
         {
             "name": "composer/installers",
@@ -1054,13 +1054,33 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-7/",
             "time": "2023-05-31T05:35:51+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/flamingo",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/flamingo/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/flamingo.zip?timestamp=1684483381"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/flamingo/",
+            "time": "2023-05-19T08:03:01+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/contact-form-7": 20
+        "wpackagist-plugin/contact-form-7": 20,
+        "wpackagist-plugin/flamingo": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
